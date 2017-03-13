@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+name = TimeBank
+description = A module to  to create a small Time&Credit Exchange Community System, that is a module aiming to foster and support an Exchange Community around the concepts of credit and trust
+package = TimeBank
+core = 7.x
+files[] = timebank.module
+dependencies[] = chatblock
+dependencies[] = fivestar
+dependencies[] = geolocation
+dependencies[] = getdirections
+dependencies[] = mcapi
+dependencies[] = offers_wants
+dependencies[] = registration
+dependencies[] = sharethis
+dependencies[] = social_login
+dependencies[] = features
+
+=======
+name = TimeBank
+>>>>>>> 

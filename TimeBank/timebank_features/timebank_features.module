@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the TimeBank features feature.
+ */
+
+include_once 'timebank_features.features.inc';
