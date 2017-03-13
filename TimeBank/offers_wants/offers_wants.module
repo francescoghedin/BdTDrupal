@@ -240,11 +240,9 @@ function proposition_form(&$node, $form_state, $prelim = FALSE){
     '#type' => 'date',
     '#date_type' => DATE_UNIX,
     '#date_year_range' => '-0:+1',
-    '#required' => FALSE,
+    '#required' => TRUE,
     '#default_value' => array(
-      'day' => format_date($default_time, 'custom', 'j'),
-      'month' => format_date($default_time, 'custom', 'n'),
-      'year' => format_date($default_time, 'custom', 'Y')
+      'day' => format_date($default_time, 'custom', 'j'),'month' => format_date($default_time, 'custom', 'n'), 'year' => format_date($default_time, 'custom', 'Y')
     )
   );
   return $form;
@@ -258,8 +256,9 @@ function proposition_form(&$node, $form_state, $prelim = FALSE){
 function offers_wants_form_proposition_node_form_alter(&$form, $form_state) {
   $form['menu']['#access'] = FALSE;
   //get the name of the category element
-  $form['offers_wants_categories']['und']['#title'] = t('It belongs in these categories');
-  $form['offers_wants_categories']['und']['#description'] = '';
+  $form['offers_wants_categories']['und']['#title'] ="Category";
+  $form['offers_wants_categories']['und']['#description'] = t('It belongs in this category');
+  $form['offers_wants_categories']['und']['#required'] = TRUE;
   //remove or hide the types widget
   if (isset($form['offers_wants_types']) && count($form['offers_wants_types'][LANGUAGE_NONE]['#options']) < 3) {
     $lang = $form['offers_wants_types']['#language'];

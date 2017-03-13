@@ -71,8 +71,8 @@ if ($teaser) {
   <?php print render($field_rate_this); ?>
   <?php print $convert_link; ?>
   <hr />
-  <?php if ($image) print render($image) ?> 
-  <hr />
+  <?php if ($image){ print render($image); echo "<hr/>";} ?> 
+
   <?php print render($content['end']); ?>  
   <hr />
   <?php print render($field_where_i_am); ?>
