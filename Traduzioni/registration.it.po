@@ -1,0 +1,1316 @@
+# $Id$
+#
+# Italian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  registration.module: n/a
+#  registration.info: n/a
+#  includes/registration.field.inc: n/a
+#  modules/registration_entity_access/registration_entity_access.info: n/a
+#  modules/registration_views/registration_views.module: n/a
+#  modules/registration_views/registration_views.info: n/a
+#  modules/registration_waitlist/registration_waitlist.info: n/a
+#  lib/registration.metadata.inc: n/a
+#  includes/registration.forms.inc: n/a
+#  lib/registration.entity.inc: n/a
+#  registration.install: n/a
+#  includes/registration_type.admin.inc: n/a
+#  modules/registration_views/includes/registration_handler_field_registration_link_delete.inc: n/a
+#  lib/registration_type.ui_controller.inc: n/a
+#  modules/registration_entity_access/registration_entity_access.module: n/a
+#  modules/registration_views/includes/registration_handler_field_entity_capacity_total.inc: n/a
+#  modules/registration_views/includes/registration_handler_field_entity_registration_status.inc: n/a
+#  modules/registration_views/includes/registration_handler_field_entity_settings_link.inc: n/a
+#  modules/registration_views/includes/registration_handler_field_registration_link.inc: n/a
+#  modules/registration_views/includes/registration_handler_field_registration_link_edit.inc: n/a
+#  modules/registration_waitlist/registration_waitlist.module: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-20 22:17+0100\n"
+"PO-Revision-Date: 2016-11-20 22:21+0100\n"
+"Language-Team: Italian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+
+#: registration.module:41;1317;160 registration.info:0;0
+#: includes/registration.field.inc:14
+#: modules/registration_entity_access/registration_entity_access.info:0
+#: modules/registration_views/registration_views.module:214;280
+#: modules/registration_views/registration_views.info:0
+#: modules/registration_waitlist/registration_waitlist.info:0
+msgid "Registration"
+msgstr "Registrazione"
+
+#: registration.module:42;227
+msgid "Registrations"
+msgstr "Registrazioni"
+
+#: registration.module:59
+msgid "Full Registration"
+msgstr "Registrazione completa"
+
+#: registration.module:70 lib/registration.metadata.inc:22
+#: modules/registration_views/registration_views.module:181
+msgid "Registration type"
+msgstr "Tipo di registrazione"
+
+#: registration.module:94
+msgid "Registration State"
+msgstr "Stato della registrazione"
+
+#: registration.module:95
+msgid "Registration states"
+msgstr "Stati delle registrazioni"
+
+#: registration.module:306
+msgid "Administer registration types"
+msgstr ""
+
+#: registration.module:307
+msgid "Manage registration types, fields, and display settings."
+msgstr ""
+
+#: registration.module:311
+msgid "Administer registration states"
+msgstr ""
+
+#: registration.module:312
+msgid "Manage registration states, fields, and display settings."
+msgstr ""
+
+#: registration.module:316
+msgid "Administer registration"
+msgstr ""
+
+#: registration.module:317
+msgid "View, edit, delete, and manage all registrations, regardless of type."
+msgstr ""
+
+#: registration.module:344
+msgid "%type_name: Administer settings"
+msgstr ""
+
+#: registration.module:345
+msgid "Allow changing registration settings for all entities of this type."
+msgstr ""
+
+#: registration.module:348
+msgid "%type_name: Administer own settings"
+msgstr ""
+
+#: registration.module:349
+msgid ""
+"Allow changing registration settings for entities which a user has edit "
+"access."
+msgstr ""
+
+#: registration.module:352
+msgid "%type_name: View all registrations"
+msgstr ""
+
+#: registration.module:355
+msgid "%type_name: View own registrations"
+msgstr ""
+
+#: registration.module:358
+msgid "%type_name: Create new registration"
+msgstr ""
+
+#: registration.module:361
+msgid "%type_name: Edit own registrations"
+msgstr ""
+
+#: registration.module:364
+msgid "%type_name: Edit any registrations"
+msgstr ""
+
+#: registration.module:367
+msgid "%type_name: Delete own registrations"
+msgstr ""
+
+#: registration.module:370
+msgid "%type_name: Delete any registrations"
+msgstr ""
+
+#: registration.module:373
+msgid "%type_name: Register self"
+msgstr ""
+
+#: registration.module:376
+msgid "%type_name: Register other accounts"
+msgstr ""
+
+#: registration.module:377
+msgid ""
+"Register other users by username. Note that giving this permission to "
+"Anonymous is not recommended, as it can expose a user's registration status "
+"to a site visitor who knows their username."
+msgstr ""
+
+#: registration.module:380
+msgid "%type_name: Register other people"
+msgstr ""
+
+#: registration.module:383
+msgid "%type_name: Edit registration state"
+msgstr ""
+
+#: registration.module:559
+msgid "Sorry, registrations are no longer available for %name"
+msgstr ""
+
+#: registration.module:581
+msgid "id"
+msgstr ""
+
+#: registration.module:587;1492;1499 includes/registration.forms.inc:83
+msgid "Email"
+msgstr ""
+
+#: registration.module:590;1529 includes/registration.forms.inc:64
+#: lib/registration.entity.inc:137
+#: modules/registration_views/registration_views.module:168;174
+msgid "User"
+msgstr ""
+
+#: registration.module:596
+msgid "Created By"
+msgstr ""
+
+#: registration.module:602
+msgid "Count"
+msgstr ""
+
+#: registration.module:608;1509 lib/registration.entity.inc:89
+msgid "Created"
+msgstr ""
+
+#: registration.module:615;1534 includes/registration.forms.inc:143
+#: lib/registration.entity.inc:150
+msgid "State"
+msgstr ""
+
+#: registration.module:620
+msgid "Actions"
+msgstr ""
+
+#: registration.module:657;177
+msgid "View"
+msgstr ""
+
+#: registration.module:660;185
+msgid "Edit"
+msgstr ""
+
+#: registration.module:663;194 includes/registration.forms.inc:162;366
+msgid "Delete"
+msgstr ""
+
+#: registration.module:685
+msgid ""
+"List of registrations for %title. !count of !capacity spaces are filled."
+msgstr ""
+
+#: registration.module:692
+msgid "List of registrations for %title. !count spaces are filled."
+msgstr ""
+
+#: registration.module:701
+msgid "There are no registrants for %name"
+msgstr ""
+
+#: registration.module:993
+msgid ""
+"There are no active registration states configured. For email to be sent to "
+"registrants, an active registration state must be specified at \"admin/"
+"structure/registration/registration_states\"."
+msgstr ""
+
+#: registration.module:1071;1074
+msgid "Registration broadcast sent to @count registrants."
+msgstr ""
+
+#: registration.module:1081
+msgid "There are no participants registered for this %type."
+msgstr ""
+
+#: registration.module:1109
+msgid "Registration settings have been saved."
+msgstr ""
+
+#: registration.module:1135
+msgid "Reminder for !label"
+msgstr ""
+
+#: registration.module:1225 includes/registration.forms.inc:1086
+msgid "You may not register for more than @count spaces."
+msgstr ""
+
+#: registration.module:1235
+msgid "Registration is not yet open."
+msgstr ""
+
+#: registration.module:1240
+msgid "Registration is closed."
+msgstr ""
+
+#: registration.module:1244
+msgid "Registration is disabled."
+msgstr ""
+
+#: registration.module:1318
+msgid "Tokens related to individual Registrations."
+msgstr ""
+
+#: registration.module:1322
+msgid "Registration Host Entity"
+msgstr ""
+
+#: registration.module:1323
+msgid "The host entity for the registration."
+msgstr ""
+
+#: registration.module:1326
+msgid "Registration User"
+msgstr ""
+
+#: registration.module:1327
+msgid "The user the registration is for."
+msgstr ""
+
+#: registration.module:1455;1471
+msgid "Myself"
+msgstr ""
+
+#: registration.module:1460
+msgid "Other account"
+msgstr ""
+
+#: registration.module:1466
+msgid "Other person"
+msgstr ""
+
+#: registration.module:1487
+msgid "Registrant"
+msgstr ""
+
+#: registration.module:1488
+msgid "Select who is registering for this event."
+msgstr ""
+
+#: registration.module:1493;1500
+msgid "Registrant's email address."
+msgstr ""
+
+#: registration.module:1504
+msgid "Entity Link"
+msgstr ""
+
+#: registration.module:1505
+msgid "Link to host entity."
+msgstr ""
+
+#: registration.module:1510
+msgid "When the registration was created."
+msgstr ""
+
+#: registration.module:1514 lib/registration.entity.inc:100
+msgid "Updated"
+msgstr ""
+
+#: registration.module:1515
+msgid "When the registration was updated."
+msgstr ""
+
+#: registration.module:1519
+msgid "Spaces Used"
+msgstr ""
+
+#: registration.module:1520
+msgid "How many spaces were used in this registration."
+msgstr ""
+
+#: registration.module:1524 lib/registration.entity.inc:123
+msgid "Author"
+msgstr ""
+
+#: registration.module:1525
+msgid "User who created the registration."
+msgstr ""
+
+#: registration.module:1530
+msgid "User associated with this registration."
+msgstr ""
+
+#: registration.module:1535
+msgid "State of the registration."
+msgstr ""
+
+#: registration.module:1652
+msgid "@state"
+msgstr ""
+
+#: registration.module:1962
+msgid "Entity registration"
+msgstr ""
+
+#: registration.module:1963
+msgid "Translatable registration settings."
+msgstr ""
+
+#: registration.module:1064;1074 includes/registration.forms.inc:378
+msgid "registration"
+msgstr ""
+
+#: registration.module:1064
+msgid "Failed to send registration broadcast email to %email."
+msgstr ""
+
+#: registration.module:161
+msgid "Administer Registration items, such as types, states, etc."
+msgstr ""
+
+#: registration.module:209
+msgid "Register"
+msgstr ""
+
+#: registration.module:218
+msgid "Manage Registrations"
+msgstr ""
+
+#: registration.module:236 includes/registration.forms.inc:588
+msgid "Settings"
+msgstr ""
+
+#: registration.module:246
+msgid "Email Registrants"
+msgstr ""
+
+#: registration.module:263
+msgid "Devel"
+msgstr ""
+
+#: registration.module:273
+msgid "Load"
+msgstr ""
+
+#: (duplicate) registration.install:572
+msgid "Registrations settings have been updated."
+msgstr ""
+
+#: registration.info:0
+msgid "Entity based registration system."
+msgstr ""
+
+#: includes/registration.field.inc:15
+msgid "Enables registrations of a selected type for an entity."
+msgstr ""
+
+#: includes/registration.field.inc:76
+msgid "Default Registration settings"
+msgstr ""
+
+#: includes/registration.field.inc:78
+msgid ""
+"These settings will be applied when an entity with this field is saved and "
+"does not yet have it's own settings applied."
+msgstr ""
+
+#: includes/registration.field.inc:87
+msgid "Hide Register Tab"
+msgstr ""
+
+#: includes/registration.field.inc:90
+msgid ""
+"Hide the tab on the content displaying the registration form. The form can "
+"still be embedded or linked to by changing the field display settings."
+msgstr ""
+
+#: includes/registration.field.inc:120;171
+msgid "Registration Type"
+msgstr ""
+
+#: includes/registration.field.inc:135
+msgid "-- Disable Registrations --"
+msgstr ""
+
+#: includes/registration.field.inc:146
+msgid ""
+"Select what type of registrations should be\n"
+"    enabled for this @type. Depending on the display settings, it will "
+"appear\n"
+"    as either string, registration link, or form."
+msgstr ""
+"Seleziona che tipo di registrazioni dovrebbero essere attivate per questa "
+"@type."
+
+#: includes/registration.field.inc:159
+msgid "Registration Link"
+msgstr ""
+
+#: includes/registration.field.inc:167
+msgid "Registration Form"
+msgstr ""
+
+#: includes/registration.field.inc:188 includes/registration.forms.inc:832;924
+#: includes/registration_type.admin.inc:18
+msgid "Label"
+msgstr ""
+
+#: includes/registration.field.inc:193
+msgid ""
+"Optional label to use when displaying the registration title or link. Leave "
+"blank to use the parent event's label."
+msgstr ""
+
+#: includes/registration.field.inc:243
+msgid "Registration label: @label."
+msgstr ""
+
+#: includes/registration.field.inc:246
+msgid "Registration label: Parent label."
+msgstr ""
+
+#: includes/registration.field.inc:332
+msgid "Cardinality on registration fields must be set to one."
+msgstr ""
+
+#: includes/registration.field.inc:342
+msgid "Capacity must be a positive integer."
+msgstr ""
+
+#: includes/registration.field.inc:347 includes/registration.forms.inc:724
+msgid "From email address is invalid."
+msgstr ""
+
+#: includes/registration.field.inc:352;357
+#: includes/registration.forms.inc:729;734
+msgid "Date is invalid."
+msgstr ""
+
+#: includes/registration.field.inc:364 includes/registration.forms.inc:743
+msgid "If sending a reminder, provide a date and template."
+msgstr ""
+
+#: includes/registration.field.inc:370 includes/registration.forms.inc:760
+msgid "Reminder date is invalid."
+msgstr ""
+
+#: includes/registration.field.inc:402
+msgid "An entity can only have one registration field."
+msgstr ""
+
+#: includes/registration.forms.inc:48
+msgid "You are registering: %who"
+msgstr ""
+
+#: includes/registration.forms.inc:55
+msgid "This registration is for:"
+msgstr ""
+
+#: includes/registration.forms.inc:68
+msgid "Select a user by typing their username to get a list of matches."
+msgstr ""
+
+#: includes/registration.forms.inc:84
+msgid "The email to associate with this registration."
+msgstr ""
+
+#: includes/registration.forms.inc:106
+msgid ""
+"The number of spaces you wish to reserve. @spaces_remaining spaces "
+"remaining. You may register up to @max spaces."
+msgstr ""
+
+#: includes/registration.forms.inc:114
+msgid ""
+"The number of spaces you wish to reserve. @spaces_remaining spaces remaining."
+msgstr ""
+
+#: includes/registration.forms.inc:117
+msgid ""
+"The number of spaces you wish to reserve. You may register up to @max spaces."
+msgstr ""
+
+#: includes/registration.forms.inc:120
+msgid "The number of spaces you wish to reserve."
+msgstr ""
+
+#: includes/registration.forms.inc:125
+msgid "Spaces"
+msgstr ""
+
+#: includes/registration.forms.inc:144
+msgid "State of this registration"
+msgstr ""
+
+#: includes/registration.forms.inc:155
+msgid "Save Registration"
+msgstr ""
+
+#: includes/registration.forms.inc:172;367
+msgid "Cancel"
+msgstr ""
+
+#: includes/registration.forms.inc:198
+msgid "Sorry, unable to register for %label due to: %errors."
+msgstr ""
+
+#: includes/registration.forms.inc:207
+msgid ""
+"Sorry, unable to register for %label due to: insufficient spaces remaining."
+msgstr ""
+
+#: includes/registration.forms.inc:220
+msgid "The email address is invalid."
+msgstr ""
+
+#: includes/registration.forms.inc:223
+msgid "%mail is already registered for this event."
+msgstr ""
+
+#: includes/registration.forms.inc:231
+msgid "You are already registered for this event."
+msgstr ""
+
+#: includes/registration.forms.inc:237
+msgid "User name is required."
+msgstr ""
+
+#: includes/registration.forms.inc:243
+msgid "%user is already registered for this event."
+msgstr ""
+
+#: includes/registration.forms.inc:246;255
+msgid "Registration Failed."
+msgstr ""
+
+#: includes/registration.forms.inc:252
+msgid "%user is not a valid user."
+msgstr ""
+
+#: includes/registration.forms.inc:330
+msgid "There was a problem submitting your registration."
+msgstr ""
+
+#: includes/registration.forms.inc:361
+msgid "Are you sure you want to delete registration %title?"
+msgstr ""
+
+#: includes/registration.forms.inc:365
+msgid "This action cannot be undone."
+msgstr ""
+
+#: includes/registration.forms.inc:379
+msgid "Registration %id has been deleted."
+msgstr ""
+
+#: includes/registration.forms.inc:401
+msgid "Subject"
+msgstr ""
+
+#: includes/registration.forms.inc:402
+msgid "The subject of the message."
+msgstr ""
+
+#: includes/registration.forms.inc:409
+msgid "Message"
+msgstr ""
+
+#: includes/registration.forms.inc:410
+msgid ""
+"Enter the message you want to send to %name registrants. Tokens are "
+"supported if the module is enabled, E.g., [node:title]."
+msgstr ""
+
+#: includes/registration.forms.inc:423
+msgid "Message preview"
+msgstr ""
+
+#: includes/registration.forms.inc:444
+msgid "Preview"
+msgstr ""
+
+#: includes/registration.forms.inc:451
+msgid "Send"
+msgstr ""
+
+#: includes/registration.forms.inc:509
+msgid "Enable"
+msgstr "Attiiva"
+
+#: includes/registration.forms.inc:510
+msgid "Check to enable registrations."
+msgstr ""
+
+#: includes/registration.forms.inc:515
+msgid "Capacity"
+msgstr ""
+
+#: includes/registration.forms.inc:516
+msgid "The maximum number of registrants. Leave at 0 for no limit."
+msgstr ""
+
+#: includes/registration.forms.inc:525
+msgid "Scheduling"
+msgstr ""
+
+#: includes/registration.forms.inc:533
+#: modules/registration_views/registration_views.module:33
+msgid "Open Date"
+msgstr ""
+
+#: includes/registration.forms.inc:535
+msgid ""
+"When to automatically open registrations. Format: %time. The date format is "
+"YYYY-MM-DD and %timezone is the time zone offset from UTC. Leave blank to "
+"disable."
+msgstr ""
+
+#: includes/registration.forms.inc:545
+msgid "When to automatically open registrations. (This uses the !timezone.)"
+msgstr ""
+
+#: includes/registration.forms.inc:546;566;612
+msgid "site default time zone"
+msgstr ""
+
+#: includes/registration.forms.inc:553
+#: modules/registration_views/registration_views.module:41
+msgid "Close Date"
+msgstr ""
+
+#: includes/registration.forms.inc:555
+msgid ""
+"When to automatically close registrations. Format: %time. The date format is "
+"YYYY-MM-DD and %timezone is the time zone offset from UTC. Leave blank to "
+"disable."
+msgstr ""
+
+#: includes/registration.forms.inc:565
+msgid "When to automatically close registrations.. (This uses the !timezone.)"
+msgstr ""
+
+#: includes/registration.forms.inc:573
+msgid "Reminder"
+msgstr ""
+
+#: includes/registration.forms.inc:581
+msgid "Send Reminder"
+msgstr ""
+
+#: includes/registration.forms.inc:582
+msgid ""
+"If checked, a reminder will be sent to registrants on the following date."
+msgstr ""
+
+#: includes/registration.forms.inc:599
+msgid "Reminder Date"
+msgstr ""
+
+#: includes/registration.forms.inc:601
+msgid ""
+"When to send reminders. Format: %time. The date format is YYYY-MM-DD and "
+"%timezone is the time zone offset from UTC."
+msgstr ""
+
+#: includes/registration.forms.inc:611
+msgid "When to send reminders. (This uses the !timezone.)"
+msgstr ""
+
+#: includes/registration.forms.inc:619
+msgid "Template"
+msgstr ""
+
+#: includes/registration.forms.inc:621
+msgid ""
+"The reminder message sent to registrants. Tokens are supported if the module "
+"is enabled, E.g., [node:title]."
+msgstr ""
+
+#: includes/registration.forms.inc:638 includes/registration_type.admin.inc:50
+msgid "Additional Settings"
+msgstr ""
+
+#: includes/registration.forms.inc:646
+msgid "Spaces allowed"
+msgstr ""
+
+#: includes/registration.forms.inc:650
+msgid ""
+"The maximum number of spaces allowed for each registrations. For no limit, "
+"use 0. (Default is 1)"
+msgstr ""
+
+#: includes/registration.forms.inc:656
+msgid "Allow multiple registrations"
+msgstr ""
+
+#: includes/registration.forms.inc:657
+msgid ""
+"If selected, each person can create multiple registrations for this event."
+msgstr ""
+
+#: includes/registration.forms.inc:663
+msgid "From Address"
+msgstr ""
+
+#: includes/registration.forms.inc:664
+msgid ""
+"From email address to use for confirmations, reminders, and broadcast emails."
+msgstr ""
+
+#: includes/registration.forms.inc:671
+msgid "Confirmation Message"
+msgstr ""
+
+#: includes/registration.forms.inc:672
+msgid "The message to display when someone registers. Leave blank for none."
+msgstr ""
+
+#: includes/registration.forms.inc:681
+msgid "Confirmation redirect path"
+msgstr ""
+
+#: includes/registration.forms.inc:682
+msgid ""
+"Optional path to redirect to when someone registers. Leave blank to redirect "
+"to the registration itself if the user has permission or the host entity if "
+"they do not."
+msgstr ""
+
+#: includes/registration.forms.inc:696
+msgid "Save Settings"
+msgstr ""
+
+#: includes/registration.forms.inc:713
+msgid "\"Capacity\" must be a positive integer or 0 for unlimited."
+msgstr ""
+
+#: includes/registration.forms.inc:719
+msgid "\"Spaces allowed\" must be a positive integer or 0 for unlimited."
+msgstr ""
+
+#: includes/registration.forms.inc:749
+msgid ""
+"You have provided a reminder template, but not opted to send a reminder. "
+"Either check the box to send a reminder, or do not provide a reminder "
+"template."
+msgstr ""
+
+#: includes/registration.forms.inc:752
+msgid ""
+"You have provided a reminder date, but not opted to send a reminder. Either "
+"check the box to send a reminder, or do not provide a reminder date."
+msgstr ""
+
+#: includes/registration.forms.inc:766
+msgid "Reminder must be in the future."
+msgstr ""
+
+#: includes/registration.forms.inc:835
+msgid "The human-readable name of this registration state."
+msgstr ""
+
+#: includes/registration.forms.inc:849
+msgid ""
+"A unique machine-readable name for\n"
+"    this registration state. It must only contain lowercase letters,\n"
+"     numbers, and underscores."
+msgstr ""
+
+#: includes/registration.forms.inc:854;1035
+msgid "Default"
+msgstr ""
+
+#: includes/registration.forms.inc:860;939;1039
+msgid "Weight"
+msgstr ""
+
+#: includes/registration.forms.inc:867;946;1034
+msgid "Description"
+msgstr ""
+
+#: includes/registration.forms.inc:874;953;1036
+msgid "Active"
+msgstr ""
+
+#: includes/registration.forms.inc:879;958;1037
+msgid "Held"
+msgstr ""
+
+#: includes/registration.forms.inc:884;963;1038
+msgid "Show on form"
+msgstr ""
+
+#: includes/registration.forms.inc:892
+msgid "Save Registration state"
+msgstr ""
+
+#: includes/registration.forms.inc:969
+#: modules/registration_views/includes/registration_handler_field_registration_link_delete.inc:21
+msgid "delete"
+msgstr ""
+
+#: includes/registration.forms.inc:973
+msgid "export"
+msgstr ""
+
+#: includes/registration.forms.inc:980
+msgid ""
+"This table defines the registration states available on this site. A default "
+"is required and will be used if no states are marked as 'Show on Form'."
+msgstr ""
+
+#: includes/registration.forms.inc:985
+msgid "Save configuration"
+msgstr ""
+
+#: includes/registration.forms.inc:1022
+msgid "Your registration states have been saved."
+msgstr ""
+
+#: includes/registration.forms.inc:1033
+msgid "Label !required"
+msgstr ""
+
+#: includes/registration.forms.inc:1033
+msgid "This field is required."
+msgstr ""
+
+#: includes/registration.forms.inc:1040
+msgid "Operations"
+msgstr ""
+
+#: includes/registration.forms.inc:378
+msgid "Registration %id deleted."
+msgstr ""
+
+#: includes/registration_type.admin.inc:21
+msgid "The human-readable name of this model type."
+msgstr ""
+
+#: includes/registration_type.admin.inc:35
+msgid ""
+"A unique machine-readable name for this registration type. It must only "
+"contain lowercase letters, numbers, and underscores."
+msgstr ""
+
+#: includes/registration_type.admin.inc:43
+msgid ""
+"The default state for this registration type. Overrides the global default "
+"state set at /admin/structure/registration/registration_states."
+msgstr ""
+
+#: includes/registration_type.admin.inc:58
+msgid "Hold expiration hours"
+msgstr ""
+
+#: includes/registration_type.admin.inc:62
+msgid ""
+"The minimum number of hours a registration can remain held before it is "
+"taken out of held state and no longer counts against capacity. For no limit, "
+"use 0 (default is 1).<br><strong>Note</strong>: registrations are removed "
+"from held state by cron, so the number of hours specified is the minimum "
+"amount of time a registration will be held for; it can be held for longer "
+"depending on when the next cron run is after the minimum amount of time has "
+"elapsed."
+msgstr ""
+
+#: includes/registration_type.admin.inc:68
+msgid "Hold expiration state"
+msgstr ""
+
+#: includes/registration_type.admin.inc:71
+msgid ""
+"The state a registration will be put into when its hold expires (default is "
+"\"canceled\")."
+msgstr ""
+
+#: includes/registration_type.admin.inc:78
+msgid "Save registration type"
+msgstr ""
+
+#: includes/registration_type.admin.inc:85
+msgid "Delete registration type"
+msgstr ""
+
+#: lib/registration.entity.inc:33
+msgid "Registration for !title"
+msgstr ""
+
+#: lib/registration.entity.inc:64
+msgid "Email Address"
+msgstr ""
+
+#: lib/registration.entity.inc:111
+msgid "Slots Used"
+msgstr ""
+
+#: lib/registration.metadata.inc:14
+msgid "Registration ID"
+msgstr ""
+
+#: lib/registration.metadata.inc:16
+msgid "The unique ID of the registration."
+msgstr ""
+
+#: lib/registration.metadata.inc:24
+msgid "The type of the registration."
+msgstr ""
+
+#: lib/registration.metadata.inc:32
+msgid "Host entity type"
+msgstr ""
+
+#: lib/registration.metadata.inc:34
+msgid "The entity type of the host entity."
+msgstr ""
+
+#: lib/registration.metadata.inc:41
+msgid "Host entity ID"
+msgstr ""
+
+#: lib/registration.metadata.inc:43
+msgid "The entity ID of the host entity."
+msgstr ""
+
+#: lib/registration.metadata.inc:50
+msgid "Slots consumed"
+msgstr ""
+
+#: lib/registration.metadata.inc:52
+msgid "How many slots the registration consumes from the host entity."
+msgstr ""
+
+#: lib/registration.metadata.inc:58
+msgid "Date created"
+msgstr ""
+
+#: lib/registration.metadata.inc:61
+msgid "The date the registration was created."
+msgstr ""
+
+#: lib/registration.metadata.inc:66
+msgid "Date updated"
+msgstr ""
+
+#: lib/registration.metadata.inc:69
+msgid "The date the registration was most recently updated."
+msgstr ""
+
+#: lib/registration.metadata.inc:74
+msgid "Anonymous e-mail"
+msgstr ""
+
+#: lib/registration.metadata.inc:77
+msgid ""
+"An e-mail address associated with the registration of an anonymous user."
+msgstr ""
+
+#: lib/registration.metadata.inc:85
+msgid "Registrant e-mail"
+msgstr ""
+
+#: lib/registration.metadata.inc:87
+msgid ""
+"Either the user email address, if registration is for a user, or the "
+"anonymous user email property."
+msgstr ""
+
+#: lib/registration.metadata.inc:94
+msgid "Host entity"
+msgstr ""
+
+#: lib/registration.metadata.inc:97
+msgid "The host entity."
+msgstr ""
+
+#: lib/registration.metadata.inc:103
+msgid "Author entity"
+msgstr ""
+
+#: lib/registration.metadata.inc:106
+msgid "The user who created the registration."
+msgstr ""
+
+#: lib/registration.metadata.inc:112
+msgid "User entity"
+msgstr ""
+
+#: lib/registration.metadata.inc:115
+msgid "The entity for which the registration belongs to. Usually a user."
+msgstr ""
+
+#: lib/registration.metadata.inc:121
+msgid "State entity"
+msgstr ""
+
+#: lib/registration.metadata.inc:125
+msgid "The state of the registration."
+msgstr ""
+
+#: lib/registration_type.ui_controller.inc:14
+msgid ""
+"Manage registration entity types, including adding and removing fields and "
+"the display of fields."
+msgstr ""
+
+#: modules/registration_entity_access/registration_entity_access.module:16
+msgid "Roles that can register"
+msgstr ""
+
+#: modules/registration_entity_access/registration_entity_access.module:17
+msgid ""
+"Override the default access control settings by selecting which roles can "
+"%register for this event."
+msgstr ""
+
+#: modules/registration_entity_access/registration_entity_access.module:17
+msgid "register"
+msgstr ""
+
+#: modules/registration_entity_access/registration_entity_access.info:0
+msgid "Registration Entity Access"
+msgstr ""
+
+#: modules/registration_entity_access/registration_entity_access.info:0
+msgid "Provides per entity access control for registration."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:24;27;232;248;259;270
+msgid "Registration Settings"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:28
+msgid "Contains information about registration settings for entities."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:34
+msgid "When the entity will open for registrations."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:42
+msgid "When the entity will no longer accept registrations."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:50
+msgid "Slots Total"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:51
+msgid "Maximum number of slots for an entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:75
+msgid "Set the Registration State"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:93;111
+msgid "Status"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:143
+msgid "View link"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:144
+msgid "Provide a link to view a registration."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:151
+msgid "Edit link"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:152
+msgid "Provide a link to edit a registration."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:159
+msgid "Delete link"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:160
+msgid "Provide a link to delete a registration."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:169
+msgid "The user registered for this event."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:199
+msgid "State form field"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:200
+msgid "Edit the registration state"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:215
+msgid "@entity to Registration"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:217
+msgid "The Registration associated with the @entity entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:222;238
+msgid "@entity being the Registration"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:233
+msgid "@entity to Registration Settings"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:234
+msgid "The Registration settings associated with the @entity entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:249
+msgid "Registration Settings Link"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:250
+msgid "Provide a link to edit registration settings for an entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:260
+msgid "Registration Status"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:261
+msgid "Show registration status for an entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:271
+msgid "Spaces used"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:272
+msgid "Current number of spaces used for this entity."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:281
+msgid "Registration to @entity"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:283
+msgid "The @entity entity that is associated with the Registration."
+msgstr ""
+
+#: modules/registration_views/registration_views.module:289
+msgid "@entity from Registration"
+msgstr ""
+
+#: modules/registration_views/registration_views.module:365
+msgid "Updated @num registration states."
+msgstr ""
+
+#: modules/registration_views/registration_views.info:0
+msgid "Registration Views"
+msgstr ""
+
+#: modules/registration_views/registration_views.info:0
+msgid "Entity Registration Views integration"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_entity_capacity_total.inc:14
+msgid "Unlimited"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_entity_registration_status.inc:13
+msgctxt "registration"
+msgid "Open"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_entity_registration_status.inc:13
+msgctxt "registration"
+msgid "Closed"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_entity_settings_link.inc:23
+msgid "settings"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_registration_link.inc:18
+msgid "Text to display"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_registration_link.inc:38
+msgid "view"
+msgstr ""
+
+#: modules/registration_views/includes/registration_handler_field_registration_link_edit.inc:21
+msgid "edit"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:18
+msgid "Enable wait list"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:19
+msgid ""
+"When wait list is enabled, registrations made after capacity has been "
+"reached will be set to the wait list state."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:24
+msgid "Wait list capacity"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:28
+msgid ""
+"The maximum number of registrants on the wait list. Leave at 0 for no limit."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:38
+msgid "Enable wait list message"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:39
+msgid ""
+"Enable to allow display of a message above the registration form when "
+"capacity has been reached."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:49
+msgid "Wait list message"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:50
+msgid ""
+"Enter a message to display above the registration form to notify users that "
+"they will be placed on a waitlist.  Message only appears if capacity is "
+"reached."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:70
+msgid "Wait list"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:71
+msgid "Special state for registrations after capacity is reached."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:121
+msgid "Registration placed on the wait list."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.module:173
+msgid "Waitlist is full."
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.info:0
+msgid "Registration Wait list"
+msgstr ""
+
+#: modules/registration_waitlist/registration_waitlist.info:0
+msgid "Provides a special registration state that acts as a wait list."
+msgstr ""

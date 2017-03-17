@@ -1,0 +1,349 @@
+# $Id$
+#
+# Italian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  geolocation.module: n/a
+#  geolocation.info: n/a
+#  modules/geolocation_googlemaps/geolocation_googlemaps.info: n/a
+#  modules/geolocation_html5/geolocation_html5.info: n/a
+#  geolocation.install: n/a
+#  modules/geolocation_googlemaps/geolocation_googlemaps.module: n/a
+#  modules/geolocation_googlemaps/geolocation_googlemaps_widget.js: n/a
+#  modules/geolocation_html5/geolocation_html5.module: n/a
+#  modules/geolocation_html5/geolocation_html5.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-20 20:32+0100\n"
+"PO-Revision-Date: 2016-11-20 20:41+0100\n"
+"Language-Team: Italian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+
+#: geolocation.module:14 geolocation.info:0;0
+#: modules/geolocation_googlemaps/geolocation_googlemaps.info:0
+#: modules/geolocation_html5/geolocation_html5.info:0
+msgid "Geolocation"
+msgstr "Geolocalizzazione"
+
+#: geolocation.module:15
+msgid "Geolocation input."
+msgstr ""
+
+#: geolocation.module:111
+msgid "Invalid Latitude. Value must be numeric."
+msgstr "Latitude non valida. Il valore deve essere numerico."
+
+#: geolocation.module:118
+msgid "Invalid Latitude. Value must be between 90 and -90."
+msgstr "Latitude non valida. Il valore deve essere compreso tra 90 e -90."
+
+#: geolocation.module:127
+msgid "Invalid Longitude. Value must be numeric."
+msgstr "Longitudine non valida. Il valore deve essere numerico."
+
+#: geolocation.module:133
+msgid "Invalid Longitude. Value must be between 180 and -180"
+msgstr "Longitudine non valida. Il valore deve essere compreso tra 180 e -180"
+
+#: geolocation.module:170
+msgid "Simple text-based formatter"
+msgstr ""
+
+#: geolocation.module:174
+msgid "Latitude text-based formatter"
+msgstr ""
+
+#: geolocation.module:178
+msgid "Longitude text-based formatter"
+msgstr ""
+
+#: geolocation.module:194
+msgid "Geolocation is @lat, @lng"
+msgstr "La geolocalizzazione è @lat, @lng"
+
+#: geolocation.module:217
+msgid "Latitude/Longitude"
+msgstr "Latitudine/Longitudine"
+
+#: geolocation.module:245
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: geolocation.module:253
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: geolocation.install:106
+msgid ""
+"Geolocation Field data columns lat_sin, lat_cos, lng_rad converted to double "
+"precision."
+msgstr ""
+
+#: geolocation.install:153
+msgid "Updated Geolocation Field map dimensions to allow responsive settings."
+msgstr ""
+
+#: geolocation.info:0
+msgid "Provides a geolocation field."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:14
+msgid "Static Google Map"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:27
+msgid "Dynamic Google Map"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:57
+msgid "Map width"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:58
+msgid ""
+"Enter custom map width (e.g. 300px or 300%), default is 300px. Percentages "
+"do not work with static maps."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:64
+msgid "Map height"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:65
+msgid ""
+"Enter custom map height (e.g. 300px or 300%), default is 300px. Percentages "
+"do not work with static maps."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:71
+msgid "Marker icon"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:72
+msgid ""
+"Set the path to the icon marker you wish to use. Path can be absolute (with "
+"http://) or relative to the Drupal instalation. If left blank, the default "
+"will be used"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:81
+msgid "Image format"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:89
+msgid ""
+"Choose an Image Format. jpg and jpg-baseline typically provide the smallest "
+"image size, though they do so through \"lossy\" compression which may "
+"degrade the image. gif, png8 and png32 provide lossless compression."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:95
+msgid "Create link to Google Maps"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:96
+msgid "Link the static map image to Google Maps."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:105;349
+msgid "Scroll Zoom"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:106;350
+msgid ""
+"By default zooming is done with double click and/or using the map controls "
+"to avoid interrupting the normal window scroll. It can optionally be enabled "
+"here."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:114
+msgid "Map Type"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:121
+msgid ""
+"Choose map type. <em>roadmap</em> (default) specifies a standard roadmap "
+"image, as is normally shown on the Google Maps website. <em>satellite</em> "
+"specifies a satellite image. <em>terrain</em> specifies a physical relief "
+"map image, showing terrain and vegetation. <em>hybrid</em> specifies a "
+"hybrid of the satellite and roadmap image, showing a transparent layer of "
+"major streets and place names on the satellite image."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:127
+msgid "Zoom level"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:149
+msgid ""
+"Choose a custom zoom level - the higher the number the closer. <em>High zoom "
+"warning:</em> Google might not return images for any combination of Map Type "
+"and Zoom Level."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:165
+msgid "<strong>Map:</strong> !mapwidth by !mapheight"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:174
+msgid "Yes"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:174
+msgid "No"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:334
+msgid "Google Map"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:355
+msgid "Draggable Marker"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:356
+msgid ""
+"Enabling this will allow the user to drag/drop the marker to select a "
+"location."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:410
+msgid "Set location"
+msgstr "Imposta"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:415
+msgid ""
+"Enter an address / location / Google map URL in the textfield or you can "
+"also click on the map to set a marker"
+msgstr ""
+"Inserisci un indirizzo / luogo / URL di Goolge map nel campo oppure puoi "
+"cliccare sulla mappa per impostare un segnalino."
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:424
+msgid "Latitude:"
+msgstr "Latitudine:"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:439
+msgid "Longitude:"
+msgstr "Longitudine:"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:454
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:500
+msgid "!name field is required."
+msgstr "Il campo !name è obbligatorio"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:506
+msgid "!name field is incomplete, latitude value is missing."
+msgstr "Il campo !name è incompleto, manca la latitudine."
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:510
+msgid "!name field is incomplete, longitude value is missing."
+msgstr "Il campo !name è incompleto, manca la longitudine."
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:556
+msgid "Your Google Simple API Access key"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:561
+msgid ""
+"Using an API key is optional. You can find more information about API keys "
+"on <a href=\"https://developers.google.com/maps/documentation/javascript/"
+"tutorial#api_key\">Google Maps JavaScript API v3</a>."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:544
+#: modules/geolocation_googlemaps/geolocation_googlemaps.info:0
+msgid "Geolocation Google Maps"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.module:545
+msgid "Configure Geolocation Google Maps settings"
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps.info:0
+msgid "Provides Google Maps widgets and formaters for geolocation field."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid "Geocoder failed due to: "
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid "Geocode was not successful for the following reason: "
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid "Geolocation service failed. We've placed you in NewYork."
+msgstr ""
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid "Your browser doesn't support geolocation. We've placed you in Siberia."
+msgstr ""
+"Il tuo browser non supporta la geolocalizzazione. Ti abbiamo messo in "
+"Siberia."
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid ", or use your browser geolocation system by clicking this link"
+msgstr ", oppure usa le geolocalizzazione del tuo browser cliccando qui: "
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid "My Location"
+msgstr "La mia posizione"
+
+#: modules/geolocation_googlemaps/geolocation_googlemaps_widget.js:0
+msgid ", or use the IP-based location by clicking this link"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:13
+msgid "HTML5 Map image"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:55
+msgid "HTML5 widget"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:88
+msgid "Save my location"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:89
+msgid ""
+"Your web browser does not support geolocation (<a href=\"http://en.wikipedia."
+"org/wiki/W3C_Geolocation_API\">W3C Geolocation API</a>)."
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:111
+msgid ""
+"Your browser is looking for your location, you may need to approve this…"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.module:136
+msgid ""
+"!name field is required. You may need to allow your browser detect your "
+"location."
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.info:0
+msgid "Geolocation HTML5"
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.info:0
+msgid ""
+"Provides a widget and formater for geolocation field based on <a href="
+"\"http://www.w3.org/TR/geolocation-API/\">HTML5’s geolocation API</a>."
+msgstr ""
+
+#: modules/geolocation_html5/geolocation_html5.js:0
+msgid "Your location will be saved and may be shared."
+msgstr ""

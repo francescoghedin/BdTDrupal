@@ -1,0 +1,2527 @@
+# $Id$
+#
+# Italian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  date.diff.inc: n/a
+#  date_admin.inc: n/a
+#  date.field.inc: n/a
+#  date.theme: n/a
+#  date.tokens.inc: n/a
+#  date.info: n/a
+#  date_api/date_api_elements.inc: n/a
+#  date_context/date_context.module: n/a
+#  date_migrate/date_migrate_example/date_migrate_example.features.field.inc: n/a
+#  date_tools/date_tools.wizard.inc: n/a
+#  date_views/includes/date_views.views.inc: n/a
+#  date_api/theme/theme.inc: n/a
+#  date.migrate.inc: n/a
+#  date_views/includes/date_views_argument_handler_simple.inc: n/a
+#  date_elements.inc: n/a
+#  date.module: n/a
+#  date_views/includes/date_views_filter_handler_simple.inc: n/a
+#  date.install: n/a
+#  date_all_day/date_all_day.info: n/a
+#  date_api/date_api.info: n/a
+#  date_context/date_context.info: n/a
+#  date_migrate/date_migrate.info: n/a
+#  date_popup/date_popup.info: n/a
+#  date_repeat/date_repeat.info: n/a
+#  date_repeat_field/date_repeat_field.info: n/a
+#  date_tools/date_tools.info: n/a
+#  date_views/date_views.info: n/a
+#  date_all_day/date_all_day.module: n/a
+#  date_popup/date_popup.module: n/a
+#  date_api/date_api_ical.inc: n/a
+#  date_api/date_api_sql.inc: n/a
+#  date_api/date_api.module: n/a
+#  date_tools/date_tools.module: n/a
+#  date_api/date_api.install: n/a
+#  date_api/date_year_range.js: n/a
+#  date_context/plugins/date_context_date_condition.inc: n/a
+#  date_migrate/date_migrate_example/date_migrate_example.features.inc: n/a
+#  date_migrate/date_migrate_example/date_migrate_example.migrate.inc: n/a
+#  date_migrate/date_migrate_example/date_migrate_example.info: n/a
+#  date_repeat/date_repeat_form.inc: n/a
+#  date_repeat_field/date_repeat_field.module: n/a
+#  date_repeat/date_repeat.module: n/a
+#  date_tools/date_tools.change_type.inc: n/a
+#  date_views/date_views.module: n/a
+#  date_views/includes/date_views_argument_handler.inc: n/a
+#  date_views/includes/date_views_filter_handler.inc: n/a
+#  date_views/includes/date_views_plugin_pager.inc: n/a
+#  date_views/theme/date-views-pager.tpl.php: n/a
+#  date_views/theme/theme.inc: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-20 20:44+0100\n"
+"PO-Revision-Date: 2016-11-20 21:53+0100\n"
+"Language-Team: Italian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+
+#: date.diff.inc:21
+msgid "@from to @to"
+msgstr "da @from a @to"
+
+#: date.diff.inc:58
+msgid "Choose how render dates and times"
+msgstr ""
+
+#: date.diff.inc:62 date_admin.inc:22
+msgid ""
+"To add or edit options, visit <a href=\"@date-time-page\">Date and time "
+"settings</a>."
+msgstr ""
+
+#: date.diff.inc:67 date_admin.inc:112
+msgid "Display"
+msgstr ""
+
+#: date.diff.inc:70 date_admin.inc:30
+msgid "Both Start and End dates"
+msgstr ""
+
+#: date.diff.inc:71 date_admin.inc:31
+msgid "Start date only"
+msgstr ""
+
+#: date.diff.inc:72 date_admin.inc:32
+msgid "End date only"
+msgstr ""
+
+#: date.field.inc:14
+msgid "Date and time"
+msgstr ""
+
+#: date.field.inc:26 date_admin.inc:103
+msgid "Time ago"
+msgstr ""
+
+#: date.field.inc:34 date_admin.inc:134
+msgid "Plain"
+msgstr ""
+
+#: date.field.inc:176 date.theme:352
+msgid "!start-date to !end-date"
+msgstr "Da !start-date a !end-date"
+
+#: date.field.inc:264 date.tokens.inc:21 date.info:0
+#: date_api/date_api_elements.inc:327 date_context/date_context.module:48
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:671
+#: date_tools/date_tools.wizard.inc:27;51
+#: date_views/includes/date_views.views.inc:98;110
+msgid "Date"
+msgstr "Data"
+
+#: date_api/theme/theme.inc:161
+msgctxt "datetime"
+msgid "Date"
+msgstr "Data"
+
+#: date.field.inc:265
+msgid ""
+"Store a date in the database as a datetime field, recommended for complete "
+"dates and times that may need timezone conversion."
+msgstr ""
+
+#: date.field.inc:271
+msgid "Date (ISO format)"
+msgstr ""
+
+#: date.field.inc:272
+msgid ""
+"Store a date in the database as an ISO date, recommended for historical or "
+"partial dates."
+msgstr ""
+
+#: date.field.inc:278
+msgid "Date (Unix timestamp)"
+msgstr ""
+
+#: date.field.inc:279
+msgid ""
+"Store a date in the database as a timestamp, deprecated format to support "
+"legacy data."
+msgstr ""
+
+#: date.field.inc:308 date.theme:436
+msgid "Select list"
+msgstr ""
+
+#: date.field.inc:312 date.theme:436
+msgid "Text field"
+msgstr ""
+
+#: date.field.inc:319
+msgid "Pop-up calendar"
+msgstr ""
+
+#: date.field.inc:389
+msgid "A 'Start date' date is required for field %field #%delta."
+msgstr ""
+"E' obbligatorio inserire una data d'inizio per il campo %field #%delta."
+
+#: date.field.inc:395
+msgid "An 'End date' is required for field %field #%delta."
+msgstr ""
+
+#: date.migrate.inc:207 date_api/theme/theme.inc:154
+msgid "Timezone"
+msgstr "Fuso orario"
+
+#: date.migrate.inc:208
+msgid "Recurring event rule"
+msgstr "Regola eventi ricorrenti"
+
+#: date.migrate.inc:209
+msgid "End date date"
+msgstr "Data data finale"
+
+#: date.tokens.inc:14
+msgid "Date field values"
+msgstr ""
+
+#: date.tokens.inc:15
+msgid "Tokens related to date field values."
+msgstr ""
+
+#: date.tokens.inc:22
+msgid "The date value."
+msgstr ""
+
+#: date.tokens.inc:26 date_tools/date_tools.wizard.inc:85
+msgid "End Date"
+msgstr "Data finale"
+
+#: date.tokens.inc:27
+msgid "The End date value."
+msgstr ""
+
+#: date_admin.inc:18
+msgid "Choose how users view dates and times:"
+msgstr ""
+
+#: date_admin.inc:27
+msgid "Display:"
+msgstr "Mostra:"
+
+#: date_admin.inc:41
+msgid "Show @count value(s)"
+msgstr ""
+
+#: date_admin.inc:44
+msgid "Multiple values:"
+msgstr ""
+
+#: date_admin.inc:51
+msgid ""
+"Identify a specific number of values to display, or leave blank to show all "
+"values."
+msgstr ""
+
+#: date_admin.inc:54
+msgid "starting from @isodate"
+msgstr ""
+
+#: date_admin.inc:65
+msgid "ending with @isodate"
+msgstr ""
+
+#: date_admin.inc:74
+msgid ""
+"Identify specific start and/or end dates in the format YYYY-MM-DDTHH:MM:SS, "
+"or leave blank for all available dates."
+msgstr ""
+
+#: date_admin.inc:78
+msgid "Show remaining days"
+msgstr ""
+
+#: date_admin.inc:94;138
+msgid "Interval"
+msgstr ""
+
+#: date_admin.inc:95
+msgid "How many time units should be shown in the 'time ago' string."
+msgstr ""
+
+#: date_admin.inc:104
+msgid "Time ago (with \"ago\" appended)"
+msgstr ""
+
+#: date_admin.inc:105
+msgid "Time hence"
+msgstr ""
+
+#: date_admin.inc:106
+msgid "Time hence (with \"hence\" appended)"
+msgstr ""
+
+#: date_admin.inc:107
+msgid "Time span (future dates have \"-\" prepended)"
+msgstr ""
+
+#: date_admin.inc:108
+msgid "Time span (past dates have \"-\" prepended)"
+msgstr ""
+
+#: date_admin.inc:109
+msgid "Time span (with \"ago/hence\" appended)"
+msgstr ""
+
+#: date_admin.inc:113
+msgid "How to display the time ago or time hence for this field."
+msgstr ""
+
+#: date_admin.inc:147
+msgid "Display dates using the @format format"
+msgstr ""
+
+#: date_admin.inc:150
+msgid ""
+"Display dates using the default format because the specified format "
+"(@format) is not defined"
+msgstr ""
+
+#: date_admin.inc:155
+msgid "Display both Start and End dates"
+msgstr ""
+
+#: date_admin.inc:156
+msgid "Display Start date only"
+msgstr ""
+
+#: date_admin.inc:157
+msgid "Display End date only"
+msgstr ""
+
+#: date_admin.inc:165
+msgid "Show @count value(s) starting with @date1, ending with @date2"
+msgstr ""
+
+#: date_admin.inc:166
+msgid "all"
+msgstr ""
+
+#: date_admin.inc:167
+msgid "earliest"
+msgstr ""
+
+#: date_admin.inc:168
+msgid "latest"
+msgstr ""
+
+#: date_admin.inc:173
+msgid "Show remaining days: @value"
+msgstr ""
+
+#: date_admin.inc:189
+msgid "Display time ago, showing @interval units."
+msgstr ""
+
+#: date_admin.inc:206
+msgid "Default date"
+msgstr ""
+
+#: date_admin.inc:209;239
+msgid "No default value"
+msgstr ""
+
+#: date_admin.inc:210;240
+msgid "Now"
+msgstr ""
+
+#: date_admin.inc:211;241
+msgid "Relative"
+msgstr ""
+
+#: date_admin.inc:217
+msgid ""
+"Describe a time by reference to the current day, like '+90 days' (90 days "
+"from the day the field is created) or '+1 Saturday' (the next Saturday). "
+"See !strtotime for more details."
+msgstr ""
+
+#: date_admin.inc:217
+msgid "strtotime"
+msgstr ""
+
+#: date_admin.inc:220
+msgid "Relative default value"
+msgstr ""
+
+#: date_admin.inc:235
+msgid "Default end date"
+msgstr ""
+
+#: date_admin.inc:238
+msgid "Same as Default date"
+msgstr ""
+
+#: date_admin.inc:248
+msgid "Relative default value for end date"
+msgstr ""
+
+#: date_admin.inc:282
+msgid "The Strtotime default value is invalid."
+msgstr ""
+
+#: date_admin.inc:288
+msgid "The Strtotime default value for the End Date is invalid."
+msgstr ""
+
+#: date_admin.inc:316
+msgid "Short date format: @date"
+msgstr ""
+
+#: date_admin.inc:322
+msgid "Date entry options"
+msgstr ""
+
+#: date_admin.inc:325
+msgid "Control the order and format of the options users see."
+msgstr ""
+
+#: date_admin.inc:331
+#: date_views/includes/date_views_argument_handler_simple.inc:114
+msgid "Custom format"
+msgstr ""
+
+#: date_admin.inc:334
+msgid "Custom input format"
+msgstr ""
+
+#: date_admin.inc:336
+msgid ""
+"Override the input format selected above. Define a php date format string "
+"like 'm-d-Y H:i' (see <a href=\"@link\">http://php.net/date</a> for more "
+"details)."
+msgstr ""
+
+#: date_admin.inc:362
+msgid "Time increments"
+msgstr ""
+
+#: date_admin.inc:365
+msgid "1 minute"
+msgstr ""
+
+#: date_admin.inc:366
+msgid "5 minute"
+msgstr ""
+
+#: date_admin.inc:367
+msgid "10 minute"
+msgstr ""
+
+#: date_admin.inc:368
+msgid "15 minute"
+msgstr ""
+
+#: date_admin.inc:369
+msgid "30 minute"
+msgstr ""
+
+#: date_admin.inc:395
+msgid "Advanced settings"
+msgstr ""
+
+#: date_admin.inc:403;411
+msgid "Above"
+msgstr ""
+
+#: date_admin.inc:404
+msgid "Within"
+msgstr ""
+
+#: date_admin.inc:405;412
+msgid "None"
+msgstr ""
+
+#: date_admin.inc:407
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day' . 'Above' "
+"displays the label as titles above each date part. 'Within' inserts the "
+"label as the first option in the select list and in blank textfields. 'None' "
+"doesn't visually label any of the date parts. Theme functions like "
+"'date_part_label_year' and 'date_part_label_month' control label text."
+msgstr ""
+
+#: date_admin.inc:414
+msgid ""
+"The location of date part labels, like 'Year', 'Month', or 'Day' . 'Above' "
+"displays the label as titles above each date part. 'None' doesn't visually "
+"label any of the date parts. Theme functions like 'date_part_label_year' and "
+"'date_part_label_month' control label text."
+msgstr ""
+
+#: date_admin.inc:420
+msgid "Position of date part labels"
+msgstr ""
+
+#: date_admin.inc:445
+msgid "Render as a regular field"
+msgstr ""
+
+#: date_admin.inc:447
+msgid ""
+"Whether to render this field as a regular field instead of a fieldset. The "
+"date field elements are wrapped in a fieldset by default, and may not "
+"display well without it."
+msgstr ""
+
+#: date_admin.inc:477
+msgid "Please enter a custom date format, or choose one of the preset formats."
+msgstr ""
+
+#: date_admin.inc:499
+msgid "Select the date attributes to collect and store."
+msgstr ""
+
+#: date_admin.inc:501
+msgid "Changes to date attributes only effects new or updated content."
+msgstr ""
+
+#: date_admin.inc:514
+msgid "Date attributes to collect"
+msgstr ""
+
+#: date_admin.inc:524
+msgid ""
+"End dates are used to collect duration. E.g., allow an event to start on "
+"September 15, and end on September 16."
+msgstr ""
+
+#: date_admin.inc:527
+msgid "Collect an end date"
+msgstr ""
+
+#: date_admin.inc:534 date_tools/date_tools.wizard.inc:83
+msgid "Required"
+msgstr ""
+
+#: date_admin.inc:543
+msgid "Select the timezone handling method for this date field."
+msgstr ""
+
+#: date_admin.inc:546
+msgid "Time zone handling"
+msgstr ""
+
+#: date_admin.inc:563
+msgid "Cache dates"
+msgstr ""
+
+#: date_admin.inc:564
+msgid ""
+"Date objects can be created and cached as date fields are loaded rather than "
+"when they are displayed to improve performance."
+msgstr ""
+
+#: date_admin.inc:570
+msgid "Maximum dates per field"
+msgstr ""
+
+#: date_admin.inc:572
+msgid ""
+"If set to '0', all date values on every entity will be cached. Note that "
+"caching every date on fields that may have a large number of multiple or "
+"repeating values may create a significant performance penalty when the cache "
+"is cleared. The suggested setting for multiple value and repeating fields is "
+"no more than 4 values per field."
+msgstr ""
+
+#: date_admin.inc:608
+msgid "Dates without hours granularity must not use any timezone handling."
+msgstr ""
+
+#: date_admin.inc:629
+msgid "The number of cache values must be a number."
+msgstr ""
+
+#: date_admin.inc:632
+msgid "The number of cache values must be a number 0 or greater."
+msgstr ""
+
+#: date_admin.inc:648
+msgid "Site's time zone"
+msgstr ""
+
+#: date_admin.inc:649
+msgid "Date's time zone"
+msgstr ""
+
+#: date_admin.inc:650
+msgid "User's time zone"
+msgstr ""
+
+#: date_admin.inc:652
+msgid "No time zone conversion"
+msgstr ""
+
+#: date_elements.inc:312
+msgid "Show End Date"
+msgstr ""
+
+#: date_elements.inc:377
+msgid "to:"
+msgstr ""
+
+#: date_elements.inc:386;422
+msgid "Empty 'End date' values will use the 'Start date' values."
+msgstr ""
+
+#: date_elements.inc:405
+msgid "@field_name Start date value #@delta"
+msgstr ""
+
+#: date_elements.inc:407
+msgid "@field_name End date value #@delta"
+msgstr ""
+
+#: date_elements.inc:411
+msgid "@field_name Start date"
+msgstr ""
+
+#: date_elements.inc:412
+msgid "@field_name End date"
+msgstr ""
+
+#: date_elements.inc:415
+msgid "@field_name"
+msgstr ""
+
+#: date_elements.inc:522
+msgid ""
+"A 'Start date' date is required if an 'end date' is supplied for field "
+"%field #%delta."
+msgstr ""
+
+#: date_elements.inc:528
+msgid ""
+"A 'Start date' date is required if an 'End date' is supplied for field "
+"%field #%delta."
+msgstr ""
+
+#: date_elements.inc:572
+msgid "The dates are invalid."
+msgstr ""
+
+#: date_elements.inc:576
+msgid "The End date must be greater than the Start date."
+msgstr ""
+
+#: date_elements.inc:617
+msgid "The Start date is invalid."
+msgstr ""
+
+#: date_elements.inc:620
+msgid "The End date is invalid."
+msgstr ""
+
+#: date_elements.inc:630
+msgid "There are errors in @field_name value #@delta:"
+msgstr ""
+
+#: date_elements.inc:633
+msgid "There are errors in @field_name:"
+msgstr ""
+
+#: date.module:376
+msgid "More settings and values"
+msgstr ""
+
+#: date.module:382
+msgid "Date entry"
+msgstr ""
+
+#: date.module:388
+msgid "Default values"
+msgstr ""
+
+#: date.module:394
+msgid "Starting and ending year"
+msgstr ""
+
+#: date.module:593 date_views/includes/date_views_filter_handler_simple.inc:341
+msgid "Start date"
+msgstr ""
+
+#: date.module:604 date_views/includes/date_views_filter_handler_simple.inc:345
+msgid "End date"
+msgstr ""
+
+#: date.module:615
+msgid "Duration"
+msgstr ""
+
+#: date.module:616
+msgid "The duration of the time period given by the dates."
+msgstr ""
+
+#: date.theme:436
+msgid "Date part"
+msgstr ""
+
+#: date.theme:478
+msgid "The upcoming date less then 1 day."
+msgstr ""
+
+#: date.theme:480
+msgid "To event remaining 1 day"
+msgid_plural "To event remaining @count days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: date.install:156
+msgid ""
+"The widgets for repeating dates have changed. Please check the Display "
+"Fields page for each content type that has repeating date fields and confirm "
+"that the right widget has been selected."
+msgstr ""
+
+#: date.install:163
+msgid ""
+"The <em>All Day</em> functionality has been moved into a separate module. "
+"This new module provides the option to add an <em>All Day</em> checkbox to "
+"toggle time on and off for date fields. It also contains the theme that "
+"displays the <em>All Day</em> text on fields that have no time. For "
+"consistency with prior code, it has been automatically enabled. If you don't "
+"want the <em>All Day</em> functionality you can disable this module."
+msgstr ""
+
+#: date.install:171
+msgid ""
+"The <em>Date Repeat</em> integration for Date fields is being moved into a "
+"separate module. For consistency with prior code, it has been automatically "
+"enabled if the Date Repeat API module is enabled. If you don't use <em>Date "
+"Repeat</em> functionality in your fields, you can disable this module."
+msgstr ""
+
+#: date.install:205
+msgid "Date text widgets have been updated to use an increment of 1."
+msgstr ""
+
+#: date.info:0
+msgid "Makes date/time fields available."
+msgstr ""
+
+#: date.info:0 date_all_day/date_all_day.info:0 date_api/date_api.info:0
+#: date_context/date_context.info:0 date_migrate/date_migrate.info:0
+#: date_popup/date_popup.info:0 date_repeat/date_repeat.info:0
+#: date_repeat_field/date_repeat_field.info:0 date_tools/date_tools.info:0
+#: date_views/date_views.info:0
+msgid "Date/Time"
+msgstr ""
+
+#: date_all_day/date_all_day.module:159
+msgctxt "datetime"
+msgid "All day"
+msgstr "Tutto il giorno"
+
+#: date_all_day/date_all_day.module:223
+msgid "All Day"
+msgstr "Tutto il giorno"
+
+#: date_all_day/date_all_day.module:439
+msgid "Display all day checkbox"
+msgstr ""
+
+#: date_all_day/date_all_day.module:441
+msgid "Determines whether to display the 'All Day' checkbox to the user."
+msgstr ""
+
+#: date_all_day/date_all_day.info:0
+msgid "Date All Day"
+msgstr ""
+
+#: date_all_day/date_all_day.info:0
+msgid ""
+"Adds 'All Day' functionality to date fields, including an 'All Day' theme "
+"and 'All Day' checkboxes for the Date select and Date popup widgets."
+msgstr ""
+
+#: date_api/date_api_elements.inc:156
+msgid "Starting year"
+msgstr ""
+
+#: date_api/date_api_elements.inc:161;170
+msgid "Enter a relative value (-9, +9) or an absolute year such as 2015."
+msgstr ""
+
+#: date_api/date_api_elements.inc:165
+msgid "Ending year"
+msgstr ""
+
+#: date_api/date_api_elements.inc:209
+msgid ""
+"Starting year must be in the format -9, or an absolute year such as 1980."
+msgstr ""
+
+#: date_api/date_api_elements.inc:210
+msgid "Ending year must be in the format +9, or an absolute year such as 2030."
+msgstr ""
+
+#: date_api/date_api_elements.inc:329
+msgid "Format: @date"
+msgstr ""
+
+#: date_api/date_api_elements.inc:397;732 date_popup/date_popup.module:585
+msgid "The value input for field %field is invalid:"
+msgstr ""
+
+#: date_api/date_api_elements.inc:403;739 date_popup/date_popup.module:596
+msgid "A valid date is required for %title."
+msgstr ""
+
+#: date_api/date_api_elements.inc:409
+msgid "%title is invalid."
+msgstr ""
+
+#: date_api/date_api_elements.inc:745 date_popup/date_popup.module:591
+msgid "The value input for field %field is invalid."
+msgstr ""
+
+#: date_api/date_api_ical.inc:101;110;116;138
+msgid "date ical"
+msgstr ""
+
+#: date_api/date_api_ical.inc:101
+msgid "HTTP Request Error importing %filename: @error"
+msgstr ""
+
+#: date_api/date_api_ical.inc:110
+msgid "Failed to open file: %filename"
+msgstr ""
+
+#: date_api/date_api_ical.inc:116
+msgid "Invalid calendar file: %filename"
+msgstr ""
+
+#: date_api/date_api_ical.inc:138
+msgid "Invalid calendar file."
+msgstr ""
+
+#: date_api/date_api_sql.inc:713 date_api/date_api.module:1531
+#: date_api/theme/theme.inc:105
+msgctxt "datetime"
+msgid "Year"
+msgstr ""
+
+#: date_api/date_api_sql.inc:714 date_api/date_api.module:1532
+#: date_api/theme/theme.inc:112
+msgctxt "datetime"
+msgid "Month"
+msgstr ""
+
+#: date_api/date_api_sql.inc:715 date_api/date_api.module:1533
+#: date_api/theme/theme.inc:119
+msgctxt "datetime"
+msgid "Day"
+msgstr ""
+
+#: date_api/date_api_sql.inc:716 date_api/date_api.module:1534
+#: date_api/theme/theme.inc:126
+msgctxt "datetime"
+msgid "Hour"
+msgstr ""
+
+#: date_api/date_api_sql.inc:717 date_api/date_api.module:1535
+#: date_api/theme/theme.inc:133
+msgctxt "datetime"
+msgid "Minute"
+msgstr ""
+
+#: date_api/date_api_sql.inc:718 date_api/date_api.module:1536
+#: date_api/theme/theme.inc:140
+msgctxt "datetime"
+msgid "Second"
+msgstr ""
+
+#: date_api/date_api.module:2562
+msgctxt "date_order"
+msgid "Second"
+msgstr ""
+
+#: date_api/date_api_sql.inc:976 date_tools/date_tools.wizard.inc:99
+#: date_views/includes/date_views_argument_handler_simple.inc:160
+msgid "Granularity"
+msgstr ""
+
+#: date_api/date_api.module:62
+msgid ""
+"Dates and calendars can be complicated to set up. The !date_wizard makes it "
+"easy to create a simple date content type and with a date field."
+msgstr ""
+
+#: date_api/date_api.module:62 date_tools/date_tools.module:94;61
+msgid "Date wizard"
+msgstr ""
+
+#: date_api/date_api.module:65
+msgid ""
+"Dates and calendars can be complicated to set up. If you enable the Date "
+"Tools module, it provides a Date Wizard that makes it easy to create a "
+"simple date content type with a date field."
+msgstr ""
+
+#: date_api/date_api.module:68
+msgid ""
+"Complete documentation for the Date and Date API modules is available at <a "
+"href=\"@link\">http://drupal.org/node/92460</a>."
+msgstr ""
+
+#: date_api/date_api.module:300
+msgid "No valid timezone name was provided."
+msgstr ""
+
+#: date_api/date_api.module:479
+msgid "The second is missing."
+msgstr ""
+
+#: date_api/date_api.module:483
+msgid "The minute is missing."
+msgstr ""
+
+#: date_api/date_api.module:487
+msgid "The hour is missing."
+msgstr ""
+
+#: date_api/date_api.module:491
+msgid "The day is missing."
+msgstr ""
+
+#: date_api/date_api.module:495
+msgid "The month is missing."
+msgstr ""
+
+#: date_api/date_api.module:499
+msgid "The year is missing."
+msgstr ""
+
+#: date_api/date_api.module:626
+msgid "The value @date does not match the expected format."
+msgstr ""
+
+#: date_api/date_api.module:669
+msgid "The year is invalid. Please check that entry includes four digits."
+msgstr ""
+
+#: date_api/date_api.module:956
+msgid "The year is invalid."
+msgstr ""
+
+#: date_api/date_api.module:960
+msgid "The month is invalid."
+msgstr ""
+
+#: date_api/date_api.module:964
+msgid "The day is invalid."
+msgstr ""
+
+#: date_api/date_api.module:968
+msgid "The hour is invalid."
+msgstr ""
+
+#: date_api/date_api.module:972
+msgid "The minute is invalid."
+msgstr ""
+
+#: date_api/date_api.module:976
+msgid "The second is invalid."
+msgstr ""
+
+#: date_api/date_api.module:1464
+msgctxt "ampm"
+msgid "am"
+msgstr ""
+
+#: date_api/date_api.module:1465
+msgctxt "ampm"
+msgid "pm"
+msgstr ""
+
+#: date_api/date_api.module:1672
+msgid "!timezone"
+msgstr ""
+
+#: date_api/date_api.module:1825
+msgid "!time ago"
+msgstr ""
+
+#: date_api/date_api.module:1826
+msgid "!time"
+msgstr ""
+
+#: date_api/date_api.module:2561
+msgctxt "date_order"
+msgid "First"
+msgstr ""
+
+#: date_api/date_api.module:2563
+msgctxt "date_order"
+msgid "Third"
+msgstr ""
+
+#: date_api/date_api.module:2564
+msgctxt "date_order"
+msgid "Fourth"
+msgstr ""
+
+#: date_api/date_api.module:2565
+msgctxt "date_order"
+msgid "Fifth"
+msgstr ""
+
+#: date_api/date_api.module:2566
+msgctxt "date_order_reverse"
+msgid "Last"
+msgstr ""
+
+#: date_api/date_api.module:2567
+msgctxt "date_order_reverse"
+msgid "Next to last"
+msgstr ""
+
+#: date_api/date_api.module:2568
+msgctxt "date_order_reverse"
+msgid "Third from last"
+msgstr ""
+
+#: date_api/date_api.module:2569
+msgctxt "date_order_reverse"
+msgid "Fourth from last"
+msgstr ""
+
+#: date_api/date_api.module:2570
+msgctxt "date_order_reverse"
+msgid "Fifth from last"
+msgstr ""
+
+#: date_api/date_api.module:2707
+msgid "Use ISO-8601 week numbers"
+msgstr ""
+
+#: date_api/date_api.module:2709
+msgid "IMPORTANT! If checked, First day of week MUST be set to Monday"
+msgstr ""
+
+#: date_api/date_api.module:2720
+msgid ""
+"When using ISO-8601 week numbers, the first day of the week must be set to "
+"Monday."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:86
+msgid ""
+"The timezone has been set to <a href=\"@regional_settings\">@timezone</a>."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:89
+msgid ""
+"The Date API requires that you set up the <a href=\"@regional_settings"
+"\">site timezone</a> to function correctly."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:95
+msgid ""
+"The first day of the week has been set to <a href=\"@regional_settings"
+"\">@day</a>."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:98
+msgid ""
+"The Date API requires that you set up the <a href=\"@regional_settings"
+"\">site first day of week settings</a> to function correctly."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:104
+msgid ""
+"The medium date format type has been set to @value. You may find it helpful "
+"to add new format types like Date, Time, Month, or Year, with appropriate "
+"formats, at <a href=\"@regional_date_time\">Date and time</a> settings."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:107
+msgid ""
+"The Date API requires that you set up the <a href=\"@regional_date_time"
+"\">system date formats</a> to function correctly."
+msgstr ""
+
+#: (duplicate) date_api/date_api.module:122 date_api/date_api.install:43 ;51
+#: date_api/date_api.info:0
+msgid "Date API"
+msgstr ""
+
+#: date_api/date_api.module:123
+msgid "Settings for modules the use the Date API."
+msgstr ""
+
+#: (duplicate) date_api/date_api.install:44
+msgid "Missing system date settings"
+msgstr ""
+
+#: (duplicate) date_api/date_api.install:52
+msgid "System date settings"
+msgstr ""
+
+#: (duplicate) date_api/date_api.install:75
+msgid ""
+"The Date API requires that you set up the <a href=\"@regional_settings"
+"\">site timezone and first day of week settings</a> and the <a href="
+"\"@regional_date_time\">date format settings</a> to function correctly."
+msgstr ""
+
+#: date_api/date_api.info:0
+msgid "A Date API that can be used by other modules."
+msgstr ""
+
+#: date_api/date_year_range.js:0
+msgid "Other"
+msgstr ""
+
+#: date_api/date_year_range.js:0
+msgid "@count year from now"
+msgid_plural "@count years from now"
+msgstr[0] ""
+msgstr[1] ""
+
+#: date_api/theme/theme.inc:168
+msgctxt "datetime"
+msgid "Time"
+msgstr "Ora"
+
+#: date_api/theme/theme.inc:218
+msgid "%time ago"
+msgstr ""
+
+#: date_api/theme/theme.inc:224
+msgid "%time hence"
+msgstr ""
+
+#: date_context/date_context.module:49
+msgid "Set a condition based on the value of a date field"
+msgstr ""
+
+#: date_context/date_context.info:0
+msgid "Date Context"
+msgstr ""
+
+#: date_context/date_context.info:0
+msgid ""
+"Adds an option to the Context module to set a context condition based on the "
+"value of a date field."
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:34
+msgid "Is less than"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:35
+msgid "Is less than or equal to"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:36
+msgid "Is greater than or equal to"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:37
+msgid "Is greater than"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:38
+msgid "Is equal to"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:39
+msgid "Is not equal to"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:40
+msgid "Is empty"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:41
+msgid "Is not Empty"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:46
+msgid "Operation"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:49
+msgid ""
+"The comparison to perform to determine if the date field meets the "
+"condition. For multiple value date fields, all values will be checked to see "
+"if any meet the condition."
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:54
+msgid "Value"
+msgstr ""
+
+#: date_context/plugins/date_context_date_condition.inc:56
+msgid ""
+"The value the field should contain to meet the condition. This can either be "
+"an absolute date in ISO format (YYYY-MM-DDTHH:MM:SS) or a relative string "
+"like '12AM today'. Examples: 2011-12-31T00:00:00, now, now +1 day, 12AM "
+"today, Monday next week. <a href=\"@relative_format\">More examples of "
+"relative date formats in the PHP documentation</a>."
+msgstr ""
+
+#: date_migrate/date_migrate.info:0
+msgid "Date Migration"
+msgstr ""
+
+#: date_migrate/date_migrate.info:0
+msgid ""
+"Obsolete data migration module. Disable if no other modules depend on it."
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:670
+msgid "Body"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:672
+msgid "Date range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:673
+msgid "Date with repeat"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:674
+msgid "Datestamp"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:675
+msgid "Datestamp range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:676
+msgid "Datetime"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.field.inc:677
+msgid "Datetime range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:14
+msgid "Migrate example - dates"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:16
+msgid ""
+"This content type is used for demonstrating and testing migration into Date "
+"fields."
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.features.inc:18
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:35
+msgid "Title"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:18
+msgid "Example migration into date fields"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:34
+msgid "Source id"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:36
+#: date_tools/date_tools.wizard.inc:404
+msgid "Description"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:37
+msgid "A simple date"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:38
+msgid "Start value for a date range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:39
+msgid "Simple datestamp"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:40
+msgid "Start value for a datestamp range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:41
+msgid "Simple datetime"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:42
+msgid "Start value for a datetime range"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.migrate.inc:43
+msgid "Sample of a repeating date field"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0
+msgid "Date Migration Example"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0
+msgid "Examples of migrating with the Date module"
+msgstr ""
+
+#: date_migrate/date_migrate_example/date_migrate_example.info:0
+msgid "Features"
+msgstr ""
+
+#: date_popup/date_popup.module:420;523
+msgid "E.g., @date"
+msgstr "Es. @date"
+
+#: date_popup/date_popup.module:826
+msgid ""
+"<p>The Date Popup module allows for manual time entry or use of a jQuery "
+"timepicker plugin. The Date module comes with a default jQuery timepicker "
+"which is already installed. The module also supports a dropdown timepicker "
+"that must be downloaded separately. The dropdown timepicker will not appear "
+"as an option until the code is available in the libraries folder. If you do "
+"not want to use a jQuery timepicker, you can choose the \"Manual time entry"
+"\" option below and users will get a regular textfield instead.</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:830
+msgid "Use default jQuery timepicker"
+msgstr ""
+
+#: date_popup/date_popup.module:831
+msgid "Use dropdown timepicker"
+msgstr ""
+
+#: date_popup/date_popup.module:832
+msgid "Manual time entry, no jQuery timepicker"
+msgstr ""
+
+#: date_popup/date_popup.module:834
+msgid "Timepicker"
+msgstr ""
+
+#: date_popup/date_popup.module:839
+msgid ""
+"<p>To install the dropdown timepicker, create a <code>!directory</code> "
+"directory in your site installation. Then visit <a href=\"@download"
+"\">@download</a>, download the latest copy and unzip it. You will see files "
+"with names like jquery.timepicker-1.1.2.js and jquery.timepicker-1.1.2.css. "
+"Rename them to jquery.timepicker.js and jquery.timepicker.css and copy them "
+"into <code>!directory</code>.</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:858
+msgid ""
+"<p>The Date Popup calendar includes some css for IE6 that breaks css "
+"validation. Since IE 6 is now superceded by IE 7, 8, and 9, the special css "
+"for IE 6 has been removed from the regular css used by the Date Popup. If "
+"you find you need that css after all, you can add it back in your theme. "
+"Look at the way the Garland theme adds special IE-only css in in its page."
+"tpl.php file. The css you need is:</p>"
+msgstr ""
+
+#: date_popup/date_popup.module:810 date_popup/date_popup.info:0
+msgid "Date Popup"
+msgstr ""
+
+#: date_popup/date_popup.module:811
+msgid "Configure the Date Popup settings."
+msgstr ""
+
+#: date_popup/date_popup.info:0
+msgid ""
+"Enables jquery popup calendars and time entry widgets for selecting dates "
+"and times."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:87;145;161;177;192
+msgctxt "Date repeat"
+msgid "Repeats"
+msgstr "Ripetizioni"
+
+#: date_repeat_field/date_repeat_field.module:164;80;94
+msgid "Repeats"
+msgstr "Ripetizioni"
+
+#: date_repeat/date_repeat_form.inc:142
+msgctxt "Date repeat"
+msgid "Every @interval days"
+msgstr "Ogni @interval giorni"
+
+#: date_repeat/date_repeat_form.inc:153
+msgid "days"
+msgstr "giorni"
+
+#: date_repeat/date_repeat_form.inc:158
+msgctxt "Date repeat"
+msgid "Every @interval weeks"
+msgstr "Ogni @interval settimane"
+
+#: date_repeat/date_repeat_form.inc:173
+msgctxt "Date repeat"
+msgid "Every @interval months"
+msgstr "Ogni @interval mesi"
+
+#: date_repeat/date_repeat_form.inc:189
+msgctxt "Date repeat"
+msgid "Every @interval years"
+msgstr "Ogni @interval anni"
+
+#: date_repeat/date_repeat_form.inc:207
+msgctxt "Date repeat"
+msgid "Repeat on"
+msgstr "Ripeti il"
+
+#: date_repeat/date_repeat_form.inc:235
+msgctxt "Date repeat"
+msgid "Every weekday"
+msgstr "Ogni weekend"
+
+#: date_repeat/date_repeat_form.inc:240
+msgctxt "Date repeat"
+msgid "Every Mon, Wed, Fri"
+msgstr "Ogni lun, mer, ven"
+
+#: date_repeat/date_repeat_form.inc:245
+msgctxt "Date repeat"
+msgid "Every Tue, Thu"
+msgstr "Ogni mar, gio"
+
+#: date_repeat/date_repeat_form.inc:251
+msgctxt "Date repeat"
+msgid "Repeats every"
+msgstr "Ripeti ogni"
+
+#: date_repeat/date_repeat_form.inc:261
+msgid "interval"
+msgstr "intervallo"
+
+#: date_repeat/date_repeat_form.inc:262
+msgid "every weekday"
+msgstr "ogni giorno lavorativo"
+
+#: date_repeat/date_repeat_form.inc:263
+msgid "monday wednesday friday"
+msgstr "lunedì mercoledì venerdì"
+
+#: date_repeat/date_repeat_form.inc:264
+msgid "tuesday thursday"
+msgstr "martedì giovedì"
+
+#: date_repeat/date_repeat_form.inc:288;392
+msgctxt "Date repeat"
+msgid "On day @bymonthday of"
+msgstr "Il giorno @bymonthday di"
+
+#: date_repeat/date_repeat_form.inc:302;348;406;452
+msgctxt "Date repeat"
+msgid "Bymonth"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:324;428
+msgctxt "Date repeat"
+msgid "On the @byday of"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:371;475
+msgid "On day ... of ..."
+msgstr "Il giorno ... di ..."
+
+#: date_repeat/date_repeat_form.inc:372;476
+msgid "On the ... of ..."
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:486
+msgctxt "Date repeat"
+msgid "After @count occurrences"
+msgstr "Dopo @count ricorrenze"
+
+#: date_repeat/date_repeat_form.inc:489
+msgctxt "Date repeat"
+msgid "Count"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:543
+msgid "Count"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:502
+msgctxt "Date repeat"
+msgid "On"
+msgstr "Il"
+
+#: date_repeat/date_repeat_form.inc:505
+msgctxt "Date repeat"
+msgid "Until"
+msgstr "Fino a"
+
+#: date_repeat/date_repeat_form.inc:544
+msgid "Until"
+msgstr "Fino a"
+
+#: date_repeat/date_repeat_form.inc:532
+msgctxt "Date repeat"
+msgid "Stop repeating"
+msgstr "Smetti di ripetere"
+
+#: date_repeat/date_repeat_form.inc:571
+msgctxt "Date repeat"
+msgid "Exclude dates"
+msgstr "Escludi giorni"
+
+#: date_repeat/date_repeat_form.inc:644
+msgctxt "Date repeat"
+msgid "Include dates"
+msgstr "Includi giorni"
+
+#: date_repeat/date_repeat_form.inc:707
+msgid "Add exception"
+msgstr "Aggiungi eccezione"
+
+#: date_repeat/date_repeat_form.inc:718
+msgid "Add addition"
+msgstr "Aggiungi eccezione"
+
+#: date_repeat/date_repeat_form.inc:1012;1028
+msgid "Delete"
+msgstr "Elimina"
+
+#: date_repeat/date_repeat_form.inc:1012
+msgid "Current exceptions"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:1028
+msgid "Current additions"
+msgstr ""
+
+#: date_repeat/date_repeat_form.inc:1049
+msgid "Repeat settings"
+msgstr ""
+
+#: date_repeat/date_repeat.module:53
+msgctxt "datetime_singular"
+msgid "Daily"
+msgstr "Giornalmente"
+
+#: date_repeat/date_repeat.module:54
+msgctxt "datetime_singular"
+msgid "Weekly"
+msgstr "Settimanalmente"
+
+#: date_repeat/date_repeat.module:55
+msgctxt "datetime_singular"
+msgid "Monthly"
+msgstr "Mensilmente"
+
+#: date_repeat/date_repeat.module:56
+msgctxt "datetime_singular"
+msgid "Yearly"
+msgstr "Annualmente"
+
+#: date_repeat/date_repeat.module:79
+msgctxt "day_name"
+msgid "Sunday"
+msgstr "Domenica"
+
+#: date_repeat/date_repeat.module:80
+msgctxt "day_name"
+msgid "Monday"
+msgstr "Lunedì"
+
+#: date_repeat/date_repeat.module:81
+msgctxt "day_name"
+msgid "Tuesday"
+msgstr "Martedì"
+
+#: date_repeat/date_repeat.module:82
+msgctxt "day_name"
+msgid "Wednesday"
+msgstr "Mercoledì"
+
+#: date_repeat/date_repeat.module:83
+msgctxt "day_name"
+msgid "Thursday"
+msgstr "Giovedì"
+
+#: date_repeat/date_repeat.module:84
+msgctxt "day_name"
+msgid "Friday"
+msgstr "Venerdì"
+
+#: date_repeat/date_repeat.module:85
+msgctxt "day_name"
+msgid "Saturday"
+msgstr "Sabato"
+
+#: date_repeat/date_repeat.module:154
+msgctxt "date_order"
+msgid "Every"
+msgstr "Ogni"
+
+#: date_repeat/date_repeat.module:264
+msgid "!repeats_every_interval on the !date_order !day_of_week"
+msgstr ""
+
+#: date_repeat/date_repeat.module:272
+msgid "!repeats_every_interval every !day_of_week"
+msgstr ""
+
+#: date_repeat/date_repeat.module:276
+msgid "and"
+msgstr "e"
+
+#: date_repeat/date_repeat.module:286
+msgid "!repeats_every_interval on the !month_days of !month_names"
+msgstr ""
+
+#: date_repeat/date_repeat.module:294
+msgid "!repeats_every_interval on !month_names"
+msgstr ""
+
+#: date_repeat/date_repeat.module:306
+msgid "!repeats_every_interval !count times"
+msgstr ""
+
+#: date_repeat/date_repeat.module:312
+msgid "!repeats_every_interval until !until_date"
+msgstr ""
+
+#: date_repeat/date_repeat.module:325
+msgid "!repeats_every_interval except !except_dates"
+msgstr ""
+
+#: date_repeat/date_repeat.module:333
+msgid "!repeats_every_interval where the week start on !day_of_week"
+msgstr ""
+
+#: date_repeat/date_repeat.module:343
+msgid "Also includes !additional_dates."
+msgstr "Includi anche !additional_dates."
+
+#: date_repeat/date_repeat.module:346
+msgid "Repeats !interval !bymonth !byday !count !until !except. !additional"
+msgstr ""
+
+#: date_repeat/date_repeat.module:237
+msgid "every week"
+msgid_plural "every @count weeks"
+msgstr[0] "Ogni settimana"
+msgstr[1] "Ogni @count settimane"
+
+#: date_repeat/date_repeat.module:241
+msgid "every month"
+msgid_plural "every @count months"
+msgstr[0] "Ogni mese"
+msgstr[1] "Ogni @count mesi"
+
+#: date_repeat/date_repeat.module:245
+msgid "every year"
+msgid_plural "every @count years"
+msgstr[0] "Ogni anno"
+msgstr[1] "Ogni @count anni"
+
+#: date_repeat/date_repeat.module:249
+msgid "every day"
+msgid_plural "every @count days"
+msgstr[0] "Ogni giorno"
+msgstr[1] "Ogni @count giorni"
+
+#: date_repeat/date_repeat.info:0
+msgid "Date Repeat API"
+msgstr ""
+
+#: date_repeat/date_repeat.info:0
+msgid ""
+"A Date Repeat API to calculate repeating dates and times from iCal rules."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:113
+msgid "View Repeating Dates"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:114
+msgid "Allow user to see a page with all the times a date repeats."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:281
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: date_repeat_field/date_repeat_field.module:360
+msgctxt "Date repeat"
+msgid "Missing value in 'Range of repeat'. (UNTIL)."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:364
+msgctxt "Date repeat"
+msgid "Missing value in 'Range of repeat': Year (UNTIL)"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:365
+msgctxt "Date repeat"
+msgid "Missing value in 'Range of repeat': Month (UNTIL)"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:366
+msgctxt "Date repeat"
+msgid "Missing value in 'Range of repeat': Day (UNTIL)"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:373
+msgctxt "Date repeat"
+msgid "Missing value in 'Range of repeat'. (COUNT)."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:632
+msgid "Repeating date"
+msgstr "Giorni di ripetizione"
+
+#: date_repeat_field/date_repeat_field.module:634
+#: date_tools/date_tools.wizard.inc:65;119
+#: date_views/includes/date_views_argument_handler_simple.inc:198
+#: date_views/includes/date_views_filter_handler_simple.inc:260
+msgid "No"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:634
+#: date_tools/date_tools.wizard.inc:66;120
+#: date_views/includes/date_views_argument_handler_simple.inc:198
+#: date_views/includes/date_views_filter_handler_simple.inc:260
+msgid "Yes"
+msgstr "Si"
+
+#: date_repeat_field/date_repeat_field.module:636
+msgid ""
+"Repeating dates use an 'Unlimited' number of values. Instead of the 'Add "
+"more' button, they include a form to select when and how often the date "
+"should repeat."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:694
+msgctxt "Date repeat"
+msgid "Expanded"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:695
+msgctxt "Date repeat"
+msgid "Collapsed"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:697
+msgctxt "Date repeat"
+msgid "Repeat display"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:698
+msgctxt "Date repeat"
+msgid ""
+"Should the repeat options form start out expanded or collapsed? Set to "
+"'Collapsed' to make those options less obtrusive."
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:719
+msgid "Repeat rule:"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:722;746
+msgid "Show repeat rule"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.module:723;749
+msgid "Hide repeat rule"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.info:0
+msgid "Date Repeat Field"
+msgstr ""
+
+#: date_repeat_field/date_repeat_field.info:0
+msgid ""
+"Creates the option of Repeating date fields and manages Date fields that use "
+"the Date Repeat API."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:17
+msgid "This operation does not yet work for the Drupal 7 version."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:31
+msgid "Field @label (@field_name)"
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:39
+msgid "There are no date fields in this database."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:45 date_tools/date_tools.wizard.inc:39
+msgid "Date field"
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:47
+msgid "The date field which whose type should be changed."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:54
+msgid "The type of date to change the field to."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:55
+msgid "New type:"
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:57
+msgid "Change"
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:72
+msgid ""
+"The current type is the same as the chosen type. There is nothing to change."
+msgstr ""
+
+#: date_tools/date_tools.change_type.inc:117;190
+msgid "The field @field_name has been changed from @old_type to @new_type."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:17
+msgid "Content type"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:22
+msgid "Content type name"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:23
+msgid ""
+"Machine-readable name. Allowed values: (a-z, 0-9, _). If this is not an "
+"existing content type, the content type will be created."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:28
+msgid "Content type label"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:29
+msgid ""
+"The human-readable name for this content type. Only needed when creating a "
+"new content type."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:33
+msgid "A date content type that is linked to a Views calendar."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:34
+msgid "Content type description"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:35
+msgid ""
+"A description for the content type. Only needed when creating a new content "
+"type."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:45
+msgid "Date field name"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:46
+msgid ""
+"Machine-readable name. Allowed values: (a-z, 0-9, _) Must not be an existing "
+"field name."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:52
+msgid "Date field label"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:53
+msgid "The human-readable label for this field."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:59
+msgid "Date widget type"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:68
+msgid "Show repeating date options"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:75
+msgid "Advanced options"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:81
+msgid "Never"
+msgstr "Mai"
+
+#: date_tools/date_tools.wizard.inc:82
+msgid "Optional"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:86
+msgid "Display a matching second date field as a 'End date'."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:92
+msgid "Date field type"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:93
+msgid ""
+"The recommend type is Datetime, except for historical dates or dates with "
+"only year or month granularity. Older or incomplete dates should use the "
+"Date type (an ISO date)."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:105
+msgid "Year range"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:106
+msgid ""
+"Range of allowed years, oldest to newest. '-1:+1 means oldest date is one "
+"year back, newest is one year forward from current year."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:112
+msgid "Date timezone handling"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:113
+msgid ""
+"Timezone handling should be set to 'none' for granularity without time "
+"elements."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:122
+msgid "Create a calendar for this date field"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:128
+msgid "Save"
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:155
+msgid ""
+"This content type name already exists, adding new field to existing content "
+"type."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:158
+msgid ""
+"The machine-readable name must contain only lowercase letters, numbers, and "
+"underscores."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:161
+msgid ""
+"The content type name must be no more than 12 characters long when using it "
+"to create a calendar and blocks."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:164
+msgid "This field name already exists."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:167
+msgid "The field name must be no more than 26 characters long."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:170
+msgid "Timezone handling must be none for granularity without time."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:209
+msgid "Your content type @name has been created."
+msgstr ""
+
+#: date_tools/date_tools.wizard.inc:301
+msgid "Your date field @name has been created."
+msgstr ""
+
+#: date_tools/date_tools.module:14
+msgid "<h2>Tools for Dates and Calendars</h2>"
+msgstr ""
+
+#: date_tools/date_tools.module:17
+msgid ""
+"Change a date field from one type to another. Very experimental, use at your "
+"own risk!"
+msgstr ""
+
+#: date_tools/date_tools.module:21
+msgid ""
+"Fill out the following form to auto-create a date content type, with a "
+"datetime field and matching pre-configured calendar. If the calendar module "
+"is enabled and the option to create a calendar is chosen, a calendar and "
+"upcoming events block will be created, an ical feed will be added to the "
+"calendar. Nodes created from this new content type will include a link to "
+"the calendar, and the calendar will have a link to the 'add new date' form. "
+"You can also add new date fields to an existing content type by entering the "
+"existing content type name instead of creating a new one."
+msgstr ""
+
+#: date_tools/date_tools.module:23
+msgid ""
+"Only a limited set of options are displayed here to make this easy to set "
+"up. Once the date has been created you will be able to make other changes to "
+"the date settings and add other fields to your new content type on the "
+"Manage fields screen. You can also make changes to the calendar on the Views "
+"edit page."
+msgstr ""
+
+#: date_tools/date_tools.module:35
+msgid "Administer date tools"
+msgstr ""
+
+#: date_tools/date_tools.module:94
+msgid ""
+"Dates and calendars can be complicated to set up. The !date_wizard makes it "
+"easy to create a simple date content type and related calendar."
+msgstr ""
+
+#: date_tools/date_tools.module:47 date_tools/date_tools.info:0
+msgid "Date Tools"
+msgstr ""
+
+#: date_tools/date_tools.module:48;54
+msgid "Date Wizard and other tools to manage and create dates and calendars. "
+msgstr ""
+
+#: date_tools/date_tools.module:53
+msgid "About"
+msgstr ""
+
+#: date_tools/date_tools.module:62
+msgid "Easy creation of date content types and calendars. "
+msgstr ""
+
+#: date_tools/date_tools.info:0
+msgid "Tools to import and auto-create dates and calendars."
+msgstr ""
+
+#: date_views/date_views.module:32
+msgid "Date views month format with year"
+msgstr ""
+
+#: date_views/date_views.module:35
+msgid "Date views month format with year, default value : F Y"
+msgstr ""
+
+#: date_views/date_views.module:40
+msgid "Date views month format without year"
+msgstr ""
+
+#: date_views/date_views.module:43
+msgid "Date views month format without year, default value : F"
+msgstr ""
+
+#: date_views/date_views.module:48
+msgid "Date views day format with year"
+msgstr ""
+
+#: date_views/date_views.module:51
+msgid "Date views day format with year, default value : l, F j, Y"
+msgstr ""
+
+#: date_views/date_views.module:56
+msgid "Date views day format without year"
+msgstr ""
+
+#: date_views/date_views.module:59
+msgid "Date views day format without year, default value : l, F j"
+msgstr ""
+
+#: date_views/date_views.module:64
+msgid "Date views week format with year"
+msgstr ""
+
+#: date_views/date_views.module:67
+msgid "Date views week format with year, default value : F j, Y"
+msgstr ""
+
+#: date_views/date_views.module:72
+msgid "Date views week format without year"
+msgstr ""
+
+#: date_views/date_views.module:75
+msgid "Date views week format without year, default value : F j"
+msgstr ""
+
+#: date_views/date_views.module:388;394
+#: date_views/includes/date_views.views.inc:103;115
+msgid "Undated"
+msgstr ""
+
+#: date_views/date_views.module:422
+msgid "@label -  start date (!name)"
+msgstr ""
+
+#: date_views/date_views.module:426
+msgid "@label -  start date"
+msgstr ""
+
+#: date_views/date_views.module:432
+msgid "@label - end date (!name:!column)"
+msgstr ""
+
+#: date_views/date_views.module:437
+msgid "@label - end date:!column"
+msgstr ""
+
+#: date_views/date_views.module:499
+msgid "Please choose a year."
+msgstr ""
+
+#: date_views/date_views.module:503
+msgid "Please choose a month."
+msgstr ""
+
+#: date_views/date_views.module:507
+msgid "Please choose a day."
+msgstr ""
+
+#: date_views/date_views.module:511
+msgid "Please choose an hour."
+msgstr ""
+
+#: date_views/date_views.module:515
+msgid "Please choose a minute."
+msgstr ""
+
+#: date_views/date_views.module:519
+msgid "Please choose a second."
+msgstr ""
+
+#: date_views/date_views.module:14
+msgid "Date views"
+msgstr ""
+
+#: date_views/date_views.module:15
+msgid "Configure settings for date views."
+msgstr ""
+
+#: date_views/date_views.info:0
+msgid "Date Views"
+msgstr ""
+
+#: date_views/date_views.info:0
+msgid "Views integration for date fields and date functionality."
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:45;52
+msgid "Date browser"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:46
+msgid ""
+"Date back/next navigation to attach to other displays. Requires the Date "
+"argument."
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:59
+msgid "Page by date"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:60
+msgid "Page using the value of a date field."
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:70
+msgid "Date browser style"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:71
+msgid "Creates back/next navigation."
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:99;111
+msgid "Date (!base_table)"
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:100
+msgid ""
+"Filter any Views !base_table date field by a date argument, using any common "
+"ISO date/period format (i.e. YYYY, YYYY-MM, YYYY-MM-DD, YYYY-W99, YYYY-MM-"
+"DD--P3M, P90D, etc)."
+msgstr ""
+
+#: date_views/includes/date_views.views.inc:112
+msgid "Filter any Views !base_table date field."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:55
+#: date_views/includes/date_views_filter_handler.inc:107
+msgid "Date field(s)"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:60
+msgid "Select one or more date fields to filter with this argument."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:63
+#: date_views/includes/date_views_filter_handler.inc:116
+msgid "Method"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:65
+#: date_views/includes/date_views_filter_handler.inc:118
+msgid "OR"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:65
+#: date_views/includes/date_views_filter_handler.inc:118
+msgid "AND"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:67
+msgid ""
+"Method of handling multiple date fields in the same query. Return items that "
+"have any matching date field (date = field_1 OR field_2), or only those with "
+"matches in all selected date fields (date = field_1 AND field_2). "
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler.inc:87
+msgid "You must select at least one date field for this argument."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:113
+msgid "Default format"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:121
+msgid "Date format options"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:124
+msgid ""
+"The date format used in titles and summary links for this argument. The "
+"default format is based on the granularity of the filter, i.e. month: "
+"@example_month, day: @example_day."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:137
+msgid "Custom summary date format"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:139
+msgid ""
+"A custom format for the title and summary date format. Define a php date "
+"format string like 'm-d-Y H:i' (see <a href=\"@link\">http://php.net/date</"
+"a> for more details)."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:154
+msgctxt "datetime"
+msgid "Week"
+msgstr "settimana"
+
+#: date_views/includes/date_views_argument_handler_simple.inc:164
+msgid ""
+"Select the type of date value to be used in defaults, summaries, and "
+"navigation. For example, a granularity of 'month' will set the default date "
+"to the current month, summarize by month in summary views, and link to the "
+"next and previous month when using date navigation."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:168
+msgid "Use granularity from argument value"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:171
+msgid ""
+"If the granularity of argument value is different from selected, use it from "
+"argument value."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:175
+msgid "Date year range"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:178
+msgid ""
+"Set the allowable minimum and maximum year range for this argument, either a "
+"-X:+X offset from the current year, like '-3:+3' or an absolute minimum and "
+"maximum year, like '2005:2010' . When the argument is set to a date outside "
+"the range, the page will be returned as 'Page not found (404)' ."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:183
+msgid "Dates to compare"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:185
+msgid "Start/End date range"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:185
+msgid "Only this field"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:186
+msgid ""
+"If selected the view will check if any value starting with the 'Start' date "
+"and ending with the 'End' date matches the view criteria. Otherwise the view "
+"will be limited to the specifically selected fields. Comparing to the whole "
+"Start/End range is the recommended setting when using this filter in a "
+"Calendar. When using the Start/End option, it is not necessary to add both "
+"the Start and End fields to the filter, either one will do."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:196
+#: date_views/includes/date_views_filter_handler_simple.inc:258
+msgid "Add multiple value identifier"
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:199
+#: date_views/includes/date_views_filter_handler_simple.inc:261
+msgid ""
+"Add an identifier to the view to show which multiple value date fields meet "
+"the filter criteria. Note: This option may introduce duplicate values into "
+"the view. Required when using multiple value fields in a Calendar or any "
+"time you want the node view of multiple value dates to display only the "
+"values that match the view filters."
+msgstr ""
+
+#: date_views/includes/date_views_argument_handler_simple.inc:212
+#: date_views/includes/date_views_filter_handler_simple.inc:269
+msgid ""
+"Date year range must be in the format -9:+9, 2005:2010, -9:2010, or 2005:+9"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:112
+msgid "Select date field(s) to filter."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:120
+msgid ""
+"Method of handling multiple date fields in the same query. Return items that "
+"have any matching date field (date = field_1 OR field_2), or only those with "
+"matches in all selected date fields (date = field_1 AND field_2)."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:127
+msgid "You must select at least one date field for this filter."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:139
+msgid "Missing date fields!"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:158
+msgid "(@field) <strong>Exposed</strong> @widget @format"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler.inc:164
+#: date_views/includes/date_views_filter_handler_simple.inc:529
+msgid "@min and @max"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:50
+msgid "Contains"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:52
+msgid "contains"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:216
+msgid "Select"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:217
+msgid "Text"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:218
+msgid "Popup"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:240
+msgid "Date selection form element"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:246
+msgid "Filter granularity"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:342
+msgid "Relative start date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:346
+msgid "Relative end date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:350
+msgid "Relative date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:401;406
+msgid "Select a date"
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:426
+msgid ""
+"Relative dates are computed when the view is displayed. Examples: now, now "
+"+1 day, 12AM today, Monday next week. <a href=\"@relative_format\">More "
+"examples of relative date formats in the PHP documentation</a>."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:458
+msgid "Relative start date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:472
+msgid "Relative end date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:488
+msgid "Relative date not specified."
+msgstr ""
+
+#: date_views/includes/date_views_filter_handler_simple.inc:522
+msgid "<strong>Exposed</strong> @widget @format"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:93
+msgid "Position: @position, format: @format."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:114
+msgid ""
+"This pager works together with a Date or Content date field contextual "
+"filter. If a Date filter has been added to the view, this pager will provide "
+"back/next paging to match the granularity of that filter (i.e. paging by "
+"year, month, week, or day). The filter must also be configured to use a DATE "
+"default value. If there is no Date contextual filter on this view, or if it "
+"has not been set to use a default date, the pager will not appear."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:116
+msgid "Date identifier"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:118
+msgid ""
+"The query identifier to use when fetching date data from in the URL. Note "
+"that if you have more than one display in the same view that uses the date "
+"pager (like a page and a block), the pager id must be different for each one "
+"or both will change when the pager value changes."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:123
+msgid "Pager position"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:125
+msgid "Bottom"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:125
+msgid "Top"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:125
+msgid "Both"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:126
+msgid ""
+"Where to place the date pager, on the top, bottom, or both top and bottom of "
+"the content."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:131
+msgid "Link format"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:133
+msgid "Pager"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:133
+msgid "Clean URL"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:134
+msgid ""
+"The format for pager link urls. With the Pager format, the links look like "
+"'calendar/?date=2020-05'. The Clean URL format links look like "
+"'calendar/2020-05'. The Clean format links look nicer but the Pager format "
+"links are likely to work better if the calendar is used in blocks or panels."
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:139
+msgid "Skip empty pages"
+msgstr ""
+
+#: date_views/includes/date_views_plugin_pager.inc:141
+msgid ""
+"When selected, the pager will not display pages with no result for the given "
+"date. This causes a slight performance degradation because two additional "
+"queries need to be executed."
+msgstr ""
+
+#: date_views/theme/date-views-pager.tpl.php:43
+msgctxt "date_nav"
+msgid "Prev"
+msgstr "Prec"
+
+#: date_views/theme/date-views-pager.tpl.php:50
+msgctxt "date_nav"
+msgid "Next"
+msgstr "Succ"
+
+#: date_views/theme/theme.inc:129
+msgid "Navigate to previous year"
+msgstr ""
+
+#: date_views/theme/theme.inc:130
+msgid "Navigate to next year"
+msgstr ""
+
+#: date_views/theme/theme.inc:134
+msgid "Navigate to previous month"
+msgstr ""
+
+#: date_views/theme/theme.inc:135
+msgid "Navigate to next month"
+msgstr ""
+
+#: date_views/theme/theme.inc:139
+msgid "Navigate to previous week"
+msgstr ""
+
+#: date_views/theme/theme.inc:140
+msgid "Navigate to next week"
+msgstr ""
+
+#: date_views/theme/theme.inc:144
+msgid "Navigate to previous day"
+msgstr ""
+
+#: date_views/theme/theme.inc:145
+msgid "Navigate to next day"
+msgstr ""
+
+#: date_views/theme/theme.inc:210
+msgid "Week of @date"
+msgstr ""
+
+#: date_views/theme/theme.inc:218
+msgid "View full page month"
+msgstr ""

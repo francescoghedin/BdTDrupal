@@ -1,0 +1,696 @@
+# $Id$
+#
+# Italian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  chatblock.admin.inc: n/a
+#  chatblock.module: n/a
+#  chatblock.install: n/a
+#  chatblock.info: n/a
+#  js/chatblock.js: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2016-11-20 20:41+0100\n"
+"PO-Revision-Date: 2016-11-20 20:42+0100\n"
+"Language-Team: Italian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+"Last-Translator: \n"
+"Language: it_IT\n"
+
+#: chatblock.admin.inc:17
+msgid "Manual logs clean-up"
+msgstr ""
+
+#: chatblock.admin.inc:18
+msgid "Remove all messages from the chat log older than the given time period."
+msgstr ""
+
+#: chatblock.admin.inc:30;266
+msgid "minute(s)"
+msgstr ""
+
+#: chatblock.admin.inc:31;267
+msgid "hour(s)"
+msgstr ""
+
+#: chatblock.admin.inc:32;268
+msgid "day(s)"
+msgstr ""
+
+#: chatblock.admin.inc:33;269
+msgid "week(s)"
+msgstr ""
+
+#: chatblock.admin.inc:34;270
+msgid "month(s)"
+msgstr ""
+
+#: chatblock.admin.inc:35;271
+msgid "year(s)"
+msgstr ""
+
+#: chatblock.admin.inc:42
+msgid "delete"
+msgstr ""
+
+#: chatblock.admin.inc:68
+msgid "Basic settings"
+msgstr ""
+
+#: chatblock.admin.inc:70 chatblock.module:54;532
+msgid "Chat"
+msgstr ""
+
+#: chatblock.admin.inc:71
+msgid "Chat title"
+msgstr ""
+
+#: chatblock.admin.inc:72
+msgid ""
+"A short name for your chat. Will be used as the default block title and also "
+"for the log pages."
+msgstr ""
+
+#: chatblock.admin.inc:80
+msgid "Chat window height"
+msgstr ""
+
+#: chatblock.admin.inc:81
+msgid ""
+"Override all stylesheet definitions for the chat window height. Use any "
+"valid CSS height value, e.g. <em>200px</em> or <em>20em</em>. Use no spaces "
+"or quotes and no trailing semicolon. Leave empty to not override CSS."
+msgstr ""
+
+#: chatblock.admin.inc:88
+msgid "Startup message count"
+msgstr ""
+
+#: chatblock.admin.inc:91
+msgid ""
+"The maximum number of messages to be displayed at block's initial load. "
+"Leavy empty to start with all available messages (not recommended). "
+"<strong>The effictive message count may be additionally limited by the value "
+"below.</strong>"
+msgstr ""
+
+#: chatblock.admin.inc:101
+msgid "Maximum retrospect time"
+msgstr ""
+
+#: chatblock.admin.inc:102
+msgid ""
+"Limit the time range for the initial display of recent messages in the chat "
+"window. Leave empty for no limitation (not recommended). <strong>The "
+"effective results may be additionally limited by the value above.</strong>"
+msgstr ""
+
+#: chatblock.admin.inc:105;306
+msgid "minutes"
+msgstr ""
+
+#: chatblock.admin.inc:113
+msgid "Input field label"
+msgstr ""
+
+#: chatblock.admin.inc:114
+msgid "Optional prefix for the chat form input field, e.g. \"Your message:\""
+msgstr ""
+
+#: chatblock.admin.inc:117 chatblock.module:158
+msgid "Enter your message"
+msgstr "Inserisci messaggio"
+
+#: chatblock.admin.inc:121
+msgid "Minimize input form"
+msgstr ""
+
+#: chatblock.admin.inc:122
+msgid ""
+"Will turn the submit button invisible and move the input field label into "
+"the empty input field when Javascript is enabled."
+msgstr ""
+
+#: chatblock.admin.inc:127
+msgid "Hint on missing permissions"
+msgstr ""
+
+#: chatblock.admin.inc:128
+msgid ""
+"Enter an optional message that informs users about how to obtain permissions "
+"to join the chat unless they already own them."
+msgstr ""
+
+#: chatblock.admin.inc:138
+msgid "Show function links"
+msgstr ""
+
+#: chatblock.admin.inc:139
+msgid ""
+"Display links to chat block functions (format infos, logs) in the chatblock "
+"if the user has permission to see them."
+msgstr ""
+
+#: chatblock.admin.inc:141
+msgid "never"
+msgstr ""
+
+#: chatblock.admin.inc:142
+msgid "as contextual links if possible"
+msgstr ""
+
+#: chatblock.admin.inc:143
+msgid "always below chat window"
+msgstr ""
+
+#: chatblock.admin.inc:149
+msgid "Guest name prefix"
+msgstr ""
+
+#: chatblock.admin.inc:150
+msgid ""
+"If you allow anonymous users to join your chat, their display name will "
+"consist of this prefix and a snippet from their Drupal session ID. "
+"<strong>Note:</strong> Changing this prefix will not affect existing "
+"messages."
+msgstr ""
+
+#: chatblock.admin.inc:153 chatblock.module:1181
+msgid "Guest"
+msgstr ""
+
+#: chatblock.admin.inc:158
+msgid "System messages"
+msgstr ""
+
+#: chatblock.admin.inc:164
+msgid "Add timestamp"
+msgstr ""
+
+#: chatblock.admin.inc:165
+msgid "Adds a timestamp to all chat messages and events."
+msgstr ""
+
+#: chatblock.admin.inc:171
+msgid "Timestamps as tooltips"
+msgstr ""
+
+#: chatblock.admin.inc:172
+msgid ""
+"Show timestamps as tooltips while hovering each message instead of "
+"displaying them permanently. Recommended if chatblock resides in a narrow "
+"side bar."
+msgstr ""
+
+#: chatblock.admin.inc:178
+msgid "Timestamp format"
+msgstr ""
+
+#: chatblock.admin.inc:179;237
+msgid ""
+"Configure the timestamp format. Use placeholders as described in <a href="
+"\"@php_date_url\">PHP date()</a>, but restrict to the following tokens "
+"(otherwise, you will receive odd results for some reasons): <em>Y, y, m, n, "
+"d, j, H, G, i, s</em>."
+msgstr ""
+
+#: chatblock.admin.inc:194
+msgid "Enable login messages"
+msgstr ""
+
+#: chatblock.admin.inc:195
+msgid "Display a system message when a user has logged in."
+msgstr ""
+
+#: chatblock.admin.inc:196;204
+msgid ""
+"Consider privacy impacts and the fact, that, due to persistant session "
+"cookies, this information is not very reliable anyway."
+msgstr ""
+
+#: chatblock.admin.inc:202
+msgid "Enable logout messages"
+msgstr ""
+
+#: chatblock.admin.inc:203
+msgid "Display a system message when a user has logged out."
+msgstr ""
+
+#: chatblock.admin.inc:211
+msgid "Log and info page options"
+msgstr ""
+
+#: chatblock.admin.inc:216
+msgid "Custom info page content"
+msgstr ""
+
+#: chatblock.admin.inc:221
+msgid ""
+"Optional markup that can be displayed at the top of the <a href="
+"\"@infopage_url\">chat info page</a>."
+msgstr ""
+
+#: chatblock.admin.inc:228
+msgid "Messages per page"
+msgstr ""
+
+#: chatblock.admin.inc:229
+msgid ""
+"Maximum number of messages displayed per log page. Set to \"0\" to have all "
+"messages on one page (are you sure?!)."
+msgstr ""
+
+#: chatblock.admin.inc:236
+msgid "Timestamp format for logs"
+msgstr ""
+
+#: chatblock.admin.inc:252
+msgid "Clean up chat logs"
+msgstr ""
+
+#: chatblock.admin.inc:253
+msgid ""
+"Removes messages from the chat log after the given time period. Note that "
+"you need to configure a cronjob for this task to work. Set the value to 0 to "
+"disable automatic clean-ups."
+msgstr ""
+
+#: chatblock.admin.inc:280
+msgid "Additional/performance options"
+msgstr ""
+
+#: chatblock.admin.inc:281
+msgid ""
+"Each of these settings may enhance your chat but does this at the cost of "
+"performance. Keep this in mind when configuring."
+msgstr ""
+
+#: chatblock.admin.inc:286
+msgid "Poll rate"
+msgstr ""
+
+#: chatblock.admin.inc:291
+msgid "Default poll interval"
+msgstr ""
+
+#: chatblock.admin.inc:292
+msgid "seconds"
+msgstr ""
+
+#: chatblock.admin.inc:293
+msgid ""
+"The default time before a client will update its chat window. Shorter "
+"intervals mean more server activity, 0 means the chat will not be updated by "
+"javascript at all."
+msgstr ""
+
+#: chatblock.admin.inc:301
+msgid "Smart poll stepwidth"
+msgstr ""
+
+#: chatblock.admin.inc:318
+msgid "Maximum poll interval (minutes)"
+msgstr ""
+
+#: chatblock.admin.inc:319
+msgid ""
+"Limits smart polling to a maximum interval. The value will always be "
+"adjusted not to be smaller than your default poll interval (see above)."
+msgstr ""
+
+#: chatblock.admin.inc:320
+msgid "Please select"
+msgstr ""
+
+#: chatblock.admin.inc:327
+msgid "Link user profiles"
+msgstr ""
+
+#: chatblock.admin.inc:328
+msgid "Adds a profile link to each registered user's name."
+msgstr ""
+
+#: chatblock.admin.inc:333
+msgid "Smileys"
+msgstr ""
+
+#: chatblock.admin.inc:334
+msgid "Transforms emoticon codes into graphical smileys."
+msgstr ""
+
+#: chatblock.admin.inc:339
+msgid "Detect URLs"
+msgstr ""
+
+#: chatblock.admin.inc:340
+msgid ""
+"Tries to detect URLs and email addresses and transforms them into links."
+msgstr ""
+
+#: chatblock.module:29
+msgid "On site chat"
+msgstr ""
+
+#: chatblock.module:34
+msgid "On site chat infos"
+msgstr ""
+
+#: chatblock.module:86
+msgid "Chat infos"
+msgstr ""
+
+#: chatblock.module:169
+msgid "send"
+msgstr ""
+
+#: chatblock.module:272;296
+msgid "A database error has occured. No messages could be deleted."
+msgstr ""
+
+#: chatblock.module:386
+msgid "Replacements"
+msgstr ""
+
+#: chatblock.module:447
+msgid "Currently, no information is available."
+msgstr ""
+
+#: chatblock.module:450
+msgid "Text"
+msgstr ""
+
+#: chatblock.module:450
+msgid "Result"
+msgstr ""
+
+#: chatblock.module:450
+msgid "Replacement"
+msgstr ""
+
+#: chatblock.module:451
+msgid "See below how your input will be modified."
+msgstr ""
+
+#: chatblock.module:473
+msgid ""
+"Chatblock provides an easy-to-set-up Ajax chat for your site. Just activate "
+"the module, configure the <a href=\"!configure_block_url\">block settings "
+"and permissions</a> as well as the <a href=\"!configure_permissions_url"
+"\">user permissions</a> and start over."
+msgstr ""
+
+#: chatblock.module:484
+msgid ""
+"If your site has more than a few visitors, you should install the <a href=\"!"
+"js_module_url\">JS callback handler</a> as described there. It is also "
+"recommended to activate the <a href=\"!apc_url\">PHP APC extension</a>. The "
+"chatblock module does not need to be configured for either extension; it "
+"will integrate automatically with both."
+msgstr ""
+
+#: chatblock.module:527
+msgid "@chat_title logs"
+msgstr ""
+
+#: chatblock.module:546
+msgid "The messages archive is empty."
+msgstr ""
+
+#: chatblock.module:632
+msgid "Configure chatblock settings"
+msgstr ""
+
+#: chatblock.module:633
+msgid "Set up basic chatblock properties and performance."
+msgstr ""
+
+#: chatblock.module:637
+msgid "Administer chat logs"
+msgstr ""
+
+#: chatblock.module:638
+msgid "Set up how long logs are available and manually clean them up."
+msgstr ""
+
+#: chatblock.module:642
+msgid "View chats"
+msgstr ""
+
+#: chatblock.module:643
+msgid ""
+"See the chat. Does not include permission to send messages into it. Before "
+"granting this permission to anonymous users, you should consider your "
+"server's performance."
+msgstr ""
+
+#: chatblock.module:646
+msgid "Join chats"
+msgstr ""
+
+#: chatblock.module:647
+msgid ""
+"Send messages to the chat window. Before granting this permission to "
+"anonymous users, you should consider your server's performance."
+msgstr ""
+
+#: chatblock.module:650
+msgid "View chat logs"
+msgstr ""
+
+#: chatblock.module:674
+msgid "@user has just logged in."
+msgstr ""
+
+#: chatblock.module:693
+msgid "@user has just logged out."
+msgstr ""
+
+#: chatblock.module:732
+msgid "Clean up messages older than"
+msgstr ""
+
+#: chatblock.module:784
+msgid "Configure chat options"
+msgstr ""
+
+#: chatblock.module:785
+msgid "settings"
+msgstr ""
+
+#: chatblock.module:798
+msgid "Information about this chat"
+msgstr ""
+
+#: chatblock.module:799
+msgid "info"
+msgstr ""
+
+#: chatblock.module:804
+msgid "View the chat logs"
+msgstr ""
+
+#: chatblock.module:805
+msgid "logs"
+msgstr ""
+
+#: chatblock.module:1639
+msgid ""
+"You have set the maximum poll interval to be longer than the allowed "
+"retrospect time. This will work, but in certain cases not all new messages "
+"may be sent to an active client."
+msgstr ""
+
+#: chatblock.module:1680
+msgid ""
+"The maximum poll interval must be longer than the default poll interval."
+msgstr ""
+
+#: chatblock.module:1692
+msgid "If timestamps are enabled, a timestamp format must be defined."
+msgstr ""
+
+#: chatblock.module:1705
+msgid "Please enter a valid CSS dimension or leave the field blank."
+msgstr ""
+
+#: chatblock.module:1721
+msgid "Please provide a positive integer value for %field_name!"
+msgstr ""
+
+#: chatblock.module:1740
+msgid "Please enter an integer value."
+msgstr ""
+
+#: chatblock.module:243;296;304
+msgid "chatblock"
+msgstr ""
+
+#: chatblock.module:243
+msgid "Cleaning up messages older than !due_date from chatblock logs."
+msgstr ""
+
+#: chatblock.module:304
+msgid "Database operation successful. @count messages have been cleaned up."
+msgstr ""
+
+#: chatblock.module:278
+msgid "Database operation successful. One message has been cleaned up."
+msgid_plural ""
+"Database operation successful. @count messages have been cleaned up."
+msgstr[0] ""
+msgstr[1] ""
+
+#: chatblock.module:569 chatblock.install:229 chatblock.info:0
+msgid "Chatblock"
+msgstr ""
+
+#: chatblock.module:570;579
+msgid "Configure the on site chat block."
+msgstr ""
+
+#: chatblock.module:578
+msgid "Settings"
+msgstr ""
+
+#: chatblock.module:584
+msgid "Chatblock information"
+msgstr ""
+
+#: chatblock.module:585;593
+msgid ""
+"Information on this chat (e.g. how parts of your chat messages will be "
+"filtered)."
+msgstr ""
+
+#: chatblock.module:592
+msgid "Information"
+msgstr ""
+
+#: chatblock.module:598
+msgid "Chatblock logs"
+msgstr ""
+
+#: chatblock.module:599
+msgid "On site chat logs."
+msgstr ""
+
+#: chatblock.module:605
+msgid "View logs"
+msgstr ""
+
+#: chatblock.module:606
+msgid "View the on site chat logs."
+msgstr ""
+
+#: chatblock.module:613
+msgid "Clean up"
+msgstr ""
+
+#: chatblock.module:614
+msgid "Delete chat logs."
+msgstr ""
+
+#: chatblock.install:159
+msgid "copy the <em>chatblock.php</em> file from %module_dir to %drupal_root."
+msgstr ""
+
+#: chatblock.install:171
+msgid ""
+"make sure that <em>chatblock.php</em> file versions in %module_dir and "
+"%drupal_root are equal."
+msgstr ""
+
+#: chatblock.install:179
+msgid ""
+"have <a href=\"@js_module_url\">js.module</a> or <a href=\"@js_callback_url"
+"\">js_callback.module</a> installed and enabled."
+msgstr ""
+
+#: chatblock.install:187
+msgid "install the <a href=\"@apc_url\">PHP APC extension</a>."
+msgstr ""
+
+#: chatblock.install:200
+msgid ""
+"make sure that the directory %directory exists and is writeable by Drupal. "
+"At least one of these is not the case at the moment."
+msgstr ""
+
+#: chatblock.install:210
+msgid ""
+"Your system configuration is very likely to run into performance issues and "
+"chatblock will probably not even work at all."
+msgstr ""
+
+#: chatblock.install:214
+msgid "Your system configuration is likely to run into performance issues."
+msgstr ""
+
+#: chatblock.install:218
+msgid "Your system is not optimally configured."
+msgstr ""
+
+#: chatblock.install:220
+msgid "For optimal chatblock performance you should: <ul>!actions</ul>"
+msgstr ""
+
+#: chatblock.install:226
+msgid ""
+"It looks like you have done everything right to have your chatblock as "
+"performant as possible!"
+msgstr ""
+
+#: chatblock.install:297
+msgid ""
+"Successfully removed the callback handler from your Drupal root directory."
+msgstr ""
+
+#: chatblock.install:308
+msgid ""
+"The callback handler (\"chatblock.php\") has not been removed from your "
+"Drupal root directory as it appears to have been edited."
+msgstr ""
+
+#: (duplicate) chatblock.install:66
+msgid ""
+"Unable to create <em>[module_dir]/chatblock/cache/tmp</em> directory. Please "
+"create one and make sure to make it writeable for Drupal."
+msgstr ""
+
+#: (duplicate) chatblock.install:75
+msgid ""
+"Successfully copied the callback handler \"chatblock.php\" to your Drupal "
+"root directory."
+msgstr ""
+
+#: (duplicate) chatblock.install:79
+msgid ""
+"Failed to copy the callback handler \"chatblock.php\" to your Drupal root. "
+"You should do this manually right now."
+msgstr ""
+
+#: (duplicate) chatblock.install:86
+msgid ""
+"Did not attempt to copy the callback handler \"chatblock.php\" to your "
+"Drupal root as there already is a file with the same name. Make sure this is "
+"the right file, otherwise copy the file manually from the chatblock module "
+"folder to your Drupal root."
+msgstr ""
+
+#: (duplicate) chatblock.install:101
+msgid "Welcome to the on site chat!"
+msgstr ""
+
+#: chatblock.info:0
+msgid "Provides an on site chat, located in a block."
+msgstr ""
+
+#: js/chatblock.js:0
+msgid "Type and press enter to send your message"
+msgstr ""
